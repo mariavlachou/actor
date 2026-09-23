@@ -24,3 +24,15 @@ jupyter nbconvert --to notebook --execute --inplace full_pipeline_example.ipynb 
 ``` 
 
 - If you would like to specify the dataset instead, you can run
+```
+/opt/anaconda3/bin/python3 full_pipeline_generic.py --dataset fln
+
+
+```
+
+or to specify how many samples you want
+
+```
+/opt/anaconda3/bin/python3 full_pipeline_generic.py --dataset euaa --sample-size 50
+
+```
