@@ -427,3 +427,11 @@ FodyWeavers.xsd
 *.msix
 *.msm
 *.msp
+
+# Project-specific: regenerable PyTerrier index directories (binary, rebuilt
+# automatically by pt_retrieval.py / pt_dense_retrieval.py if missing) and
+# ad-hoc run logs from manual script invocations.
+pt_index_*/
+pt_dense_index_*/
+*_run.log
+streamlit_app.log

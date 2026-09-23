@@ -1,0 +1,52 @@
+requests>=2.31
+beautifulsoup4>=4.12
+
+# For browser_scraper.py (JS/AJAX-callback sites, e.g. caselaw.euaa.europa.eu):
+#   pip install -r requirements.txt
+#   playwright install chromium
+playwright>=1.40
+
+# For hf_dataset_sampler.py:
+datasets>=2.19
+
+# For extract_topics.py (BERTopic pipeline: embed -> UMAP -> HDBSCAN -> c-TF-IDF):
+bertopic>=0.16
+pandas>=2.0
+
+# For pt_retrieval.py / pt_retrieval.ipynb (PyTerrier sparse indexing + retrieval,
+# BM25/SPLADE, optional monoT5 rerank):
+#   - Requires a working Java installation (JDK 11+); PyTerrier embeds a JVM in
+#     the Python process via pyjnius. On Apple Silicon Macs this can crash
+#     under some Python builds (a JIT/code-signing restriction) -- if so, try
+#     running it from a different Python distribution (e.g. Anaconda's).
+#   - To also run pt_retrieval.ipynb: pip install jupyter nbformat nbclient
+python-terrier>=1.0
+pyterrier_t5>=0.3
+pyterrier-splade>=0.1
+
+# For pt_dense_retrieval.py / pt_dense_retrieval.ipynb (PyTerrier dense
+# indexing + retrieval via FlexIndex, E5/Qwen3): same Java/JVM requirement
+# and Apple Silicon caveat as above.
+pyterrier_dr>=0.8
+
+# For retrieval_results_app.py (Streamlit viewer): streamlit itself, plus
+# langdetect to decide which topic names need Danish->English translation
+# (via a local Ollama model, gemma3:4b by default -- ollama pull gemma3:4b).
+streamlit>=1.41
+langdetect>=1.0
+
+# For full_pipeline_example.ipynb / full_pipeline_generic.ipynb (end-to-end
+# scraping -> evaluation-metrics example notebooks):
+#   - jupyter, nbformat, nbclient (to build/execute a notebook programmatically)
+#   - papermill, to run full_pipeline_generic.ipynb from the command line with
+#     parameter overrides, e.g.:
+#       papermill full_pipeline_generic.ipynb output.ipynb -p DATASET_KEY euaa
+#   - Same Java/JVM requirement and Apple Silicon caveat as the pt_retrieval.py
+#     entries above: use the Anaconda Python distribution's jupyter/papermill
+#     binaries on this machine (/opt/anaconda3/bin/jupyter, /opt/anaconda3/bin/papermill),
+#     not the system ones, since that's the distribution where PyTerrier's
+#     embedded JVM actually starts here.
+jupyter>=1.0
+nbformat>=5.10
+nbclient>=0.10
+papermill>=2.6

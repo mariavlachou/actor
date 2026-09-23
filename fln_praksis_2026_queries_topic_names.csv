@@ -1,0 +1,138 @@
+topic_id,topic_name,topic_keywords,num_queries
+-1,Outliers,"applicant, to, the, for, in, and, of, asylum, what, an",1389
+0,ukraine military recruitment cluster,"military, recruitment, service, ukraine, chechen, chechnya, russia, war, conscription, mobilization",365
+1,Applicant Family Legal Disputes,"describe, police, threats, applicant, torture, spouse, relationship, between, his, family",295
+2,Credibility Assessment Definitions,"credibility, assessment, definition, provide, of, context, narratives, narrative, define, concept",284
+3,flygtningenævnet asylum decisions,"flygtningenævnet, asylum, applications, decision, regarding, role, application, arme, medlemskab, position",84
+4,Emergency Reception Conditions,"reception, accommodation, conditions, emergency, locations, seekers, places, arbitrariness, refusal, inadequate",80
+5,Danish Asylum Application Law,"denmark, danish, law, legal, immigration, application, be, asylum, diagnosis, granting",64
+6,Dublin III Forordning Article Definitions,"artikel, 2026, stk, dublinforordningens, rusl, sambehandlet, myndighedsbeskyttelse, forordningens, 17, marau",60
+7,Flygtningenævnet Syrian Citizen Decisions,"citizen, admitted, male, flygtningenævnet, decision, female, syria, regarding, syrian, minor",57
+8,Syrian Child Registration Challenges,"syria, syrian, unknown, registering, children, father, when, denying, regime, change",56
+9,Dublin Regulation Definition,"regulation, dublin, subsidiary, purpose, deviating, article, principle, based, principles, underpinning",56
+10,Sentiment And Credibility Assessment,"sentiment, considered, credibility, is, what, of, afsluttede, asylsager, med, returnees",55
+11,Perceived Past Behavior & Plausibility,"past, perceived, behaviour, plausibility, events, meant, by, and, is, what",53
+12,Asylum Denial And Reopening Cases,"denied, entry, basis, legal, denying, based, reopened, asylum, immigrant, granting",51
+13,Perceived Past Behavior & Plausibility,"past, perceived, behaviour, plausibility, events, meant, by, and, is, what",48
+14,Udlændingestyrelsens Afgørelser & Dublin,"efter, overførsel, afvisning, udlændingelovens, eller, vedrørende, gelovens, dublinforordningen, kapitel, reglerne",47
+15,Perceived Past Behaviour Plausibility,"past, behaviour, plausibility, perceived, events, meant, by, and, is, what",46
+16,Perceived Past Behavior & Plausibility,"past, perceived, behaviour, plausibility, events, meant, by, and, is, what",46
+17,Applicant Sexual Orientation Explanation,"sexual, orientation, sexuality, his, their, explanation, homosexuality, applicant, explain, about",45
+18,Perceived Past Behavior & Plausibility,"past, perceived, behaviour, plausibility, events, meant, by, and, is, what",45
+19,Applicant Explanation Assessment,"explanation, explanations, applicant, an, video, impartial, constructed, objective, questions, inconsistent",45
+20,Perceived Past Behavior & Plausibility,"past, perceived, behaviour, plausibility, events, meant, by, and, is, what",44
+21,Udlændingestyrelse og Flygtningenævnet,"af, vurdering, vedrørende, flygtningenævnets, udlændingestyrelsens, til, og, sagen, med, praksis",43
+22,Mental Health & Treatment Needs,"psychological, medical, ptsd, health, treatment, healthcare, illness, physical, medication, stress",42
+23,Flygtningenævnet Applicant Assessment,"flygtningenævnet, applicant, explanation, explanations, assessment, overreach, stance, emergence, footage, origin",40
+24,Three-Legged Asylum Determination,"legged, cases, three, reopening, appeal, definition, asylum, provide, determination, etnicity",38
+25,Eritrean Asylum Seekers' Journeys,"eritrea, eritrean, afrikansk, her, illegal, travel, national, land, journey, service",37
+26,Asylansøgeres Grundlæggende Behov,"asylansøgning, stafastelse, asylansøgeres, og, afvisning, af, personlige, tøj, mad, udgifter",37
+27,Drc Dansk Flygtningehjælp Referral Definitions,"drc, flygtningehjælp, dansk, flygtningenævnet, confirming, referral, review, decision, definition, provide",37
+28,Persecution Risk Assessment,"persecution, fear, risk, fears, family, born, applicant, outside, against, being",37
+29,Dublin Returnee Support & Process,"returnees, dublin, pauh, welcoming, accommodation, process, airport, prefectures, subsequent, spada",35
+30,Perceived Past Behavior & Plausibility,"past, perceived, behaviour, plausibility, events, meant, by, and, is, what",35
+31,Refugee Protection Risk Assessment,"risiko, forfølgelse, vurdering, af, flygtningenævnets, på, mobilisering, baseret, syrien, for",35
+32,Asylum Motivations: Sexual Orientation,"orientation, sexual, lgbt, due, homosexuality, motivation, persecution, violence, based, being",35
+33,Perceived Past Behavior & Plausibility,"past, perceived, behaviour, plausibility, events, meant, by, and, is, what",35
+34,Uganda Anti-LGBT+ Legal Crisis,"uganda, lgbt, anti, homosexuals, imprisonment, due, ugandan, motivation, etc, opretholder",33
+35,Appeals And Revisions Of Decisions,"afgørelse, omgørelse, om, udlændingestyrelsens, flygtningenævnets, omgøre, af, ikke, at, udsættelse",33
+36,Sweden Claimant Transfer Legal Basis,"sweden, swedish, transferring, finland, legal, case, basis, claimant, handling, authorities",33
+37,denmark claimant investigation 1999,"claimant, denmark, danish, prevented, 1999, contacting, when, authorities, contact, from",32
+38,Lebanon Palestinian Refugee Status,"stateless, palestinian, lebanon, unrwa, refugees, palestinians, access, care, healthcare, availability",32
+39,Political Party Activities,"political, party, activity, positions, appointed, prominent, isolated, activities, membership, parti",32
+40,Asylum Claim Definitions,"section, claim, under, definition, asylum, provide, excluded, covered, 10, paragraph",31
+41,False asylum claims and statements,"false, explanation, divergent, explanations, inconsistencies, unfounded, an, asylum, motives, statements",31
+42,Dublin Regulation Asylum Transfers,"transferring, french, lyon, grounds, regulation, seekers, dublin, remaining, arriving, territory",31
+43,EU Charter Fundamental Rights,"degrading, inhumane, article, charter, treatment, violation, fundamental, rights, defined, human",30
+44,Sweden’s Human Rights Compliance,"compliance, obligated, sweden, human, conventions, ensure, swedish, rights, complaints, accepting",29
+45,Applicant Background Information,"background, information, summary, applicant, documents, educational, was, living, education, identifying",29
+46,taliban-fueled asylum motivations,"afghanistan, taliban, fearing, motivation, persecution, pakistan, related, lifestyle, attention, guidance",29
+47,Credibility Assessment Definition,"define, credibility, assessment, , , , , , , ",29
+48,Kurdish Situation in Syria,"kurds, kurdish, damascus, population, neighbourhoods, concentrated, identify, ethnically, reported, syria",28
+49,Forced Refugee Repatriation Law,"convention, refugee, repatriation, legal, forced, each, basis, state, procedures, member",28
+50,Female Public Sector Reintegration,"women, sector, sunni, livelihood, government, discriminatory, opportunities, representation, employees, reintegration",28
+51,Flygtningeafgørelse Interpretation,"derfor, stadfæster, udlændingestyrelsens, afgørelse, flygtningenævnet, meaning, flygtningekonventionens, define, pkt, artikel",28
+52,Residence Cancellation Decisions,"bopæl, udlændingestyrelsens, afgørelse, hjemlandet, frivillig, bortfald, stafyret, stadfæstelse, af, blodhævn",28
+53,ukrainian detention centre conditions,"prison, busmantsi, lyubimets, detention, centres, ukrainian, prisons, ukraine, ecpt, reform",27
+54,Asylum Credibility Assessment Criteria,"cases, define, credibility, context, assessment, asylum, in, assessments, reverse, factual",27
+55,Bulgarian Returnee Asylum Challenges,"bulgaria, bulgarian, returnees, dental, must, consequences, rejected, refugees, renewed, difficult",27
+56,Alien Persecution Risk Assessment,"persecution, risk, assessing, posed, alien, aliens, act, under, society, factors",27
+57,German Claimant Legal Obligations,"obligation, germany, claimant, legal, accept, international, 18, protection, regarding, does",27
+58,klageren legal case overview,"klageren, klagerens, belgium, argument, his, employment, muslim, benefit, separation, veils",27
+59,Dublin Forordningen Overview,"dublinforordningen, dub, trust, mutual, schw, principle, 2026, juro, fbll, pole",26
+60,Asylum Credibility Assessment Context,"context, claims, credibility, define, assessment, asylum, relation, in, applications, burden",26
+61,Dublin Regulation Asylum Rejection,"regulation, dublin, application, already, rejecting, if, processing, 17, granted, article",26
+62,Swedish Asylum Transfer Confirmation,"paragraph, 1st, confirmation, 48, aliens, transfer, sweden, agency, act, migration",26
+63,Residence permit revocation guidance,"permit, residence, revocation, legal, challenge, revoked, rules, previous, loss, repatriation",26
+64,Asylmotiv And Related Issues,"asylmotiv, asylrisiko, homoseksualitet, investigation, genocide, character, virksomhedsnavn, illnesses, bilag, binding",26
+65,flygtningenævnet case evaluations,"flygtningenævnet, case, decision, reasoning, private, opinion, bang, interference, evaluation, significantly",25
+66,Udlændingestyrelsen Asylum Claims Review,"udlændingestyrelsen, claims, regulation, decision, dublin, making, review, 17, traditions, regarding",24
+67,Religious Conversion Movement Analysis,"religious, conversion, demonstration, movement, media, within, social, park, panj, objects",23
+68,Asylansøgerens forklaring og vurdering,"forklaring, ansøgerens, om, grund, vurdering, forklaringer, af, kan, asylansøgers, det",23
+69,Claimant Age Information,"age, claimant, birthdate, hospital, who, sources, himself, owed, information, live",23
+70,Asylum Motivation And Passage,"motives, motivation, passage, asylum, them, described, motive, instance, discretion, standing",23
+71,Asylum Claim Definitions And Law,"section, claim, under, definition, asylum, provide, foreign, nationals, law, granted",22
+72,German Transfer Confirmation Process,"1st, paragraph, germany, cf, 48, confirmation, transfer, aliens, act, concerning",22
+73,International Protection Application Responsibility,"international, protection, responsibility, poland, application, handling, state, processing, member, responsible",22
+74,Asylum Seeking And Motivation,"motivation, motive, asylum, fear, definition, imprisonment, based, trauma, torture, provide",22
+75,Syria Women's Returning Support,"returning, extended, syria, obstacles, women, face, establishing, damascus, support, faced",22
+76,Asylum Seeking and Family Fears,"asylmotiv, frygt, familie, vold, militærtjeneste, indkaldelse, homoseksuel, homoseksualitet, myndigheder, lokalbefolkningen",22
+77,Denmark Residence Permit Revocation,"permit, residence, denmark, revoking, consecutive, than, revocation, integration, effect, 12",21
+78,Asylum Application Risk Assessment,"og, efteråret, at, han, et, til, af, en, fra, på",20
+79,K-status Asylum Application Definition,"status, application, case, minor, definition, provide, ægtepar, approval, asylum, files",20
+80,European Human Rights Case 2024-2025,"2025, 2024, vinteren, den, kendelse, menneskerettighedsdomstols, samtalereferat, 75, barn, juni",20
+81,Islamic Dress Code Restrictions,"dress, code, veil, campaigns, imposition, hijab, warnings, islamic, wearing, restrictions",20
+82,refugee appeals board reasoning,"board, behind, refugee, reasoning, overturn, appeals, immigration, ruling, not, panel",20
+83,Armed Conflict and Regional Instability,"armed, regions, groups, factions, dominated, conservative, zones, insecurity, discrimination, violence",19
+84,Female Genital Mutilation Ethiopia,"circumcision, female, ethiopia, genital, mutilation, fgm, forced, prevalence, sterilization, kenya",19
+85,Asylum Applications And Stateless Persons,"statsborger, statsløs, palæstinenser, ulovligt, fra, en, libanon, ophold, vedrørende, stadfæstede",19
+86,coa places shortage forecast,"shortage, coa, cgrs, places, forecast, admissibility, 2025, expected, priority, timelines",19
+87,Vulnerability Of Single Women,"households, headed, single, influence, upon, factors, vulnerability, generalisations, women, female",18
+88,Syrian Kidnappings And Protection Failures,"kidnappings, druze, alawite, investigate, protect, failure, intervention, kidnapping, actors, suweida",18
+89,LGBT+ Asylum and Family Planning,"lgbt, homosexual, planning, sexual, orientation, sexuality, flygtningenævnet, ansøgeren, their, relationships",18
+90,flygtningenævnet §48 statement,"statement, stk, 48, pkt, flygtningenævnet, udlændingeloven, reference, obligations, regarding, udlændingestyrelsen",18
+91,Vulnerable Population Support Needs,"vulnerable, needs, vulnerability, assessments, measures, support, plans, groups, group, implementation",17
+92,Unrwa Assistance And Living Conditions,"unrwa, assistance, living, ensure, minimum, discontinued, worthy, conditions, protection, unrwas",17
+93,Asylbegrundende Forfølgelse Definition,"asylbegrundende, forhold, forfølgelse, asylbegrundet, asylbegrundelse, overgreb, mandatområde, kina, indenfor, differential",17
+94,Ukrainian Refugee Board Assessments,"citizen, board, male, refugee, admitted, bosnian, decision, ukrainian, hercegovinian, female",17
+95,European Court Of Human Rights,"european, court, human, rights, article, austria, chartrets, ruling, individualised, 7937",17
+96,asylum applicant motivations,"motivation, motives, motivations, asylum, mixed, evicted, race, claimed, center, presented",16
+97,Denmark: Difficulties and Backgrounds,"denmark, reasons, background, proficiency, copenhagen, 20, visiting, values, disbelief, journeys",16
+98,Snhr And Syrian Women’s Views,"women, snhr, perpetrated, abuses, comparison, movement, syrian, views, 21, services",16
+99,International Protection Application Processing,"beskyttelse, ansøgning, behandle, ansvarlig, klagerens, international, sveriges, ansvar, om, at",16
+100,Swiss Refugee Treatment Concerns,"finder, ikke, at, eller, en, schweiz, der, de, antage, er",15
+101,Domestic Violence Asylum Motivations,"motivation, fearing, her, from, fear, fears, former, family, husband, woman",15
+102,ukraine asylum and military service,"ukraine, military, mobilization, flygtningenævnet, potential, russia, service, cuaet, risking, position",15
+103,health notifications and claimant status,"health, notifying, german, authorities, hjemrejsestyrelsen, about, conditions, which, claimant, appropriate",15
+104,Asylvurdering Ved Flygtningenævnet,"asylmotiv, vurdering, flygtningenævnets, vedrørende, ansøgerens, af, asylmotiver, baseret, konflikt, myndigheder",15
+105,Single Mother’s Movement Restrictions,"imposed, single, restrictions, mother, mothers, freedom, movement, security, members, family",15
+106,Eritrean Asylum Seeker Persecution Risk,"eritrea, seeker, christian, tigray, ethiopian, persecution, national, affiliation, stance, risk",15
+107,Asylum Applicant Motivation,"motivation, foundation, applicant, asylum, central, post, seeking, motives, is, role",14
+108,Damascus Versus Rural Communities,"towns, smaller, sentiment, rural, communities, versus, safety, damascus, experiences, differences",14
+109,Transfer Restrictions And Poland/Romania,"overførsel, klageren, til, afskåret, overføre, karakter, rumænien, sådan, er, polen",14
+110,taliban family threats and violence,"taliban, family, members, threats, received, member, stoning, explain, girl, fate",14
+111,Asylum System Deficiencies & Problems,"portugal, problems, spain, system, deficiencies, seekers, procedure, experience, september, accommodation",14
+112,germany’s international protection responsibility,"tyskland, responsibility, international, protection, application, responsible, nederlandene, handling, for, an",13
+113,International Protection Needs Definition,"need, protection, international, denmark, individual, factors, relevant, maps, acled, law",13
+114,Persecution Risk Assessment Cluster,"persecution, risk, overreach, udlændingelov, tørklæde, syreangreb, poses, under, udlændingelovens, 33",13
+115,Unrwa Palestinian Refugee Assistance,"unrwa, palestinian, refugees, assistance, syria, operations, ability, its, fulfill, funding",13
+116,Syrian Women's Equality Barriers,"equality, barriers, affecting, safety, women, factors, syrian, syria, treatment, vulnerabilities",13
+117,Social Media Profile Analysis,"media, profile, social, closed, creation, posts, fano, member, created, engagement",13
+118,Refugee Asylum Standards Recognition,"first, recognized, standards, basic, required, country, recognition, human, refugee, conditions",13
+119,fano and the ethiopian conflict,"fano, ethiopian, amhara, ethiopia, execution, tigray, ethnic, support, fearing, addis",13
+120,Asylum Seeker Transfer Restrictions,"prohibition, real, inhumane, there, degrading, transferring, seeker, state, treatment, when",12
+121,Netherlands Asylum Seeker Accommodation,"netherlands, compensation, average, payments, council, findings, accommodation, seeker, deficiencies, time",12
+122,Swedish Dublin Forordningen Respons,"tvangsmæssige, udsendelse, udrejse, ansvar, sveriges, dublinforordningen, ifølge, eller, klagerens, dublinforordningens",12
+123,International Protection Application Refusal,"international, refusal, protection, mediator, application, denial, refused, federal, applications, complaints",12
+124,italian refugee rights and claims,"italy, basic, claimant, chartres, streets, ending, right, refugee, charter, first",12
+125,Marital Status And Administrative Issues,"husbands, missing, married, deceased, whose, administrative, those, reintegration, foreign, nationals",12
+126,russian conflict and human rights,"rusland, ansøgeren, og, ukraine, inddraget, imod, betalte, boole, blodfejde, chikanering",12
+127,Experiences Of Violence And Harassment,"harassment, main, concerns, do, women, report, police, reasons, not, violence",11
+128,flygtning nævnet decision reasoning,"decision, reasoning, behind, overturn, udlændingestyrelsens, overrule, not, flygtningenævn, afsoningstid, schedule",11
+129,Ukrainian Asylum & Political Activism,"asylmotiv, georgien, tjetjener, demonstrationer, politisk, ukraine, militærtjeneste, forbindelser, regimekiftet, overfald",11
+130,Cross-Border Economic Survival,"survival, borders, dependence, depends, cross, across, experience, border, economic, where",11
+131,High Court Extradition Denials,"extradition, high, denial, judicial, court, remedy, legislation, violation, emrk, quick",11
+132,Applicant Identity & Background,"religious, ethnic, origin, beliefs, somali, nationality, background, learning, literacy, schooling",11
+133,Chinese Citizen Exit Controls,"china, chinese, citizens, exit, food, via, safety, freedom, airports, crossings",11
+134,Opholdstilladelse Udelukkelse Og Udvisning,"opholdstilladelse, meddelt, indrejseforbud, er, udelukket, udvisning, blive, bortfald, klageren, anvendelse",10
+135,Refugee Health and Functional Challenges,"would, diagnosis, health, psychologically, host, exhibiting, communication, functional, refugee, unusual",10

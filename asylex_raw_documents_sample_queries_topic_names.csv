@@ -1,0 +1,232 @@
+topic_id,topic_name,topic_keywords,num_queries
+-1,Outliers,"regarding, the, to, applicant, appellant, what, for, in, his, are",3131
+0,Credibility Assessment Definitions,"assessment, credibility, definition, provide, of, notion, relates, example, incompatibility, rebutting",984
+1,Canadian Appellant Return Cases,"canada, return, appellant, appellants, to, did, days, ties, presence, in",256
+2,Witness Credibility Assessment,"witness, testimony, inconsistencies, witnesses, narrative, claimant, evidence, inconsistency, contradictory, sworn",200
+3,Refugee Protection Claims Analysis,"refugee, claim, protection, claims, independent, convention, need, rejection, claimant, asylum",136
+4,Irpa Section Definitions,"irpa, section, 110, subsection, 67, under, act, sections, regulations, article",132
+5,Counsel Time Limits & Procedures,"time, limits, delay, iad, extension, process, notice, jurisdiction, abuse, filing",111
+6,Appellants’ Family Relationships,"son, children, daughter, appellant, mother, his, father, parents, sons, arrangement",110
+7,Applicant-Appellant Relationship,"applicant, between, relationship, meet, communication, appellant, meeting, first, when, did",106
+8,Identity Verification And Claims,"identity, claimant, claimants, documents, membership, pif, verification, identities, card, personal",103
+9,Marriage And Relationship Disputes,"marriage, divorce, applicant, marry, marital, appellant, married, separation, about, relationship",82
+10,State Protection Definition,"state, protection, presumption, adequate, rebuttal, citizens, inadequate, clear, convincing, constitutes",81
+11,Birth Certificate And Family Records,"birth, family, children, certificate, siblings, declared, aunt, brother, relationships, born",78
+12,Canadian Immigration Applicant Intentions,"canada, canadian, entry, applicant, plan, seeking, motivation, business, immigrate, to",77
+13,Perceived Past Behavior & Plausibility,"perceived, past, behaviour, events, plausibility, meant, by, and, is, what",73
+14,Appellant’s China Travel History,"china, guangxi, kong, hong, fuqing, guangzhou, visits, 1998, 2009, 2003",69
+15,Perceived Past Behavior & Plausibility,"perceived, past, behaviour, events, plausibility, meant, by, and, is, what",69
+16,Perceived Past Behavior & Plausibility,"perceived, past, behaviour, events, plausibility, meant, by, and, is, what",68
+17,Immigration Appeal Definitions,"appeal, immigration, decision, reconsideration, division, act, cases, 64, 63, outcome",68
+18,Credibility Assessment & Definition,"define, assessment, credibility, supportive, mandate, housing, probation, report, tazkira, psychological",67
+19,Family Class Definitions & Sponsorship,"class, family, member, membership, sponsorship, exclusion, eligibility, as, excluding, criteria",66
+20,Negative Inference And Credibility,"inference, negative, adverse, finding, findings, credibility, omission, so, witness, reasoned",66
+21,Appeal Outcome Analysis,"appeal, this, outcome, allowing, factors, issues, reasons, allowed, decision, negative",65
+22,Immigration And Refugee Protection,"protection, refugee, regulations, act, immigration, irpa, section, under, subsection, 97",65
+23,Perceived Past Behavior Plausibility,"perceived, past, behaviour, events, plausibility, meant, by, and, is, what",64
+24,Appellants’ Income And Employment History,"income, history, employment, minimum, necessary, work, appellant, background, tax, residence",62
+25,Sentiment And Credibility Assessment,"sentiment, considered, credibility, is, compliment, what, of, statement, determine, whether",61
+26,Legal Counsel Definitions,"counsel, subject, conseil, representation, person, incompetence, du, ministre, désigné, assistant",61
+27,Sentiment And Credibility Assessment,"sentiment, considered, credibility, is, what, of, , , , ",61
+28,Roma Discrimination and Racial Issues,"discrimination, roma, austria, chile, hungary, racial, discriminatory, police, reported, segregation",60
+29,Wedding Planning Timeline & Details,"wedding, ceremony, couple, marry, married, honeymoon, civil, when, marriage, date",57
+30,Shia Islam Violence In Pakistan,"shia, imam, pakistan, doctors, muslims, lej, sectarian, extremists, conversion, violence",56
+31,Parties in Legal Cases,"respondent, appellant, understanding, support, working, explanation, appellants, onus, personal, recognizance",56
+32,New Evidence Definitions,"evidence, new, irrelevant, credible, decisive, conclusive, fresh, admitting, my, persuasive",56
+33,Defining Plausibility Concepts,"plausibility, definition, provide, implausibility, of, finding, , , , ",56
+34,Credibility Assessment & Definition,"define, assessment, credibility, daughters, affidavit, outcome, analysis, financial, dismissal, support",55
+35,el salvador military atrocities,"army, salvadoran, el, salvador, civilians, military, forces, atrocities, san, 1989",55
+36,Stay Order Conditions & Removal,"stay, removal, conditions, order, cancellation, termination, confirmation, compliance, stays, written",55
+37,Sentiment And Credibility Definition,"sentiment, considered, credibility, is, what, of, define, the, , ",55
+38,Police Misconduct And Threats,"threats, police, threatening, received, mistreatment, authorities, reporting, harm, he, intimidation",53
+39,Panel Assessment And Credibility,"panel, believe, find, claimant, does, testimony, opinion, preference, ability, conclusion",52
+40,Permanent Resident Status Definition,"permanent, resident, status, retaining, card, pr, justify, residency, requirements, travel",52
+41,Rad-Rpd Redetermination Process,"rad, rpd, back, reviewing, redetermination, correctness, refer, matter, standard, decisions",52
+42,Mexican Government Corruption Investigations,"corruption, federal, police, mexico, secretariat, public, complaints, authorities, handling, investigations",52
+43,Residency Obligation Definition,"obligation, residency, obligations, carte, requirements, subsection, outside, permanence, compelling, german",52
+44,Testimony Inconsistencies Cluster,"testimony, inconsistencies, testimonies, discrepancies, appellant, between, inconsistency, applicant, misrepresentations, contradictory",50
+45,Immigration Marriage Purposes,"purposes, marriage, primarily, genuine, entered, immigration, into, genuineness, canadian, law",49
+46,Perceived Past Behavior & Plausibility,"perceived, past, behaviour, events, plausibility, meant, by, and, is, what",48
+47,Criminality And Sentencing Matters,"criminality, sentencing, serious, sentence, charges, 5000, custody, sentences, pre, maximum",46
+48,Appellant Credibility Evaluation,"evaluate, credible, questioning, testimony, appellant, remorse, credibility, appellants, detract, remainder",45
+49,Rad Appeals Definition & Process,"rad, appeals, role, consider, considering, appeal, tribunal, differences, reviewing, administrative",45
+50,Perceived Past Event Plausibility,"perceived, behaviour, past, events, plausibility, meant, by, unprotected, reality, pneumonia",44
+51,Rpd credibility and assessments,"rpd, findings, little, weight, criticisms, amnesty, evidence, report, consider, use",44
+52,Appellant’s Evidence and RPD Review,"rpd, principal, findings, reasonably, calls, appellant, regarding, could, explanation, appellants",44
+53,Special Relief Considerations,"relief, compassionate, humanitarian, special, considerations, warrant, warranting, sufficient, required, light",43
+54,Best Interests Of A Child,"best, interests, child, children, interest, minor, this, directly, making, affected",43
+55,Child Adoption Processes And Regulations,"adoption, adopted, adoptive, biological, adoptions, child, parents, regulations, parent, transfer",42
+56,Balance Of Probabilities,"probabilities, balance, onus, test, satisfy, proof, standard, on, preponderance, proving",40
+57,Immigration Judicial Review Decisions,"decisions, judicial, review, immigration, of, , , , , ",39
+58,Credibility Assessment Definitions,"define, assessment, credibility, zimbabwe, pakistan, in, is, what, , ",39
+59,Appeal Process Definitions,"allowed, appeal, outcome, minister, cause, subject, nature, perfecting, components, legislation",38
+60,Palpable And Overriding Error,"standard, palpable, overriding, review, reasonableness, error, applied, appellate, correctness, interfere",38
+61,Substance Use & Criminal Justice,"addiction, drug, offending, re, alcohol, substance, admissions, recidivism, drinking, risk",37
+62,Marriage Genuineness Assessment,"genuineness, marriage, genuine, determining, can, factor, factors, affect, points, that",37
+63,Sponsorship Definitions And Concepts,"sponsorship, et, décision, appelant, motifs, client, id, sponsor, query, de",37
+64,Applicant Work History & Background,"history, experience, applicant, work, employment, situation, demographic, background, personal, english",37
+65,Immigration Appeal Division Definition,"division, immigration, appeal, processing, im, jurisdiction, applications, migration, definition, role",37
+66,Lgbttq Sexual Orientation Issues,"sexual, orientation, homosexuality, lgbt, clinics, lgbtq, gay, community, phone, homosexual",37
+67,Judicial Hearings And Authority,"hearing, admissibility, chambers, oral, place, convening, authoritarian, intimidating, environment, regime",37
+68,Perceived Past Behavior & Plausibility,"perceived, past, behaviour, events, plausibility, meant, by, and, is, what",37
+69,Immigration Judicial Review Decisions,"decisions, judicial, review, immigration, of, , , , , ",37
+70,Misrepresentation And Inadmissibility Definition,"misrepresentation, material, 40, inadmissibility, facts, misrepresentations, fact, under, direct, seriousness",36
+71,IFA Assessment and Definition,"ifa, viable, abuja, reasonableness, ion, area, test, dakar, an, chile",36
+72,Canada Border Services Agency,"border, agency, services, notices, canada, address, letter, all, documents, high",36
+73,Perceived Past Behaviour Plausibility,"perceived, past, behaviour, events, plausibility, meant, by, and, is, what",35
+74,Asylum Plausibility Assessments,"asylum, claims, assessments, context, plausibility, meaning, refugee, in, afghan, guidelines",35
+75,Credibility And Sentiment Assessment,"sentiment, overall, credibility, considered, assessment, formation, ing, reputation, opinion, cross",35
+76,Systemic Political Persecution,"persecution, cumulative, constitute, political, discrimination, ground, grounds, based, insecure, systemic",34
+77,Case Information Retrieval,"names, cases, citations, case, dates, court, list, these, documentation, passage",34
+78,Proposal Disagreement & Withdrawal,"proposal, appearance, withdrawing, undertaking, earlier, applicant, version, appellant, did, behind",34
+79,Immigration Judicial Review,"judicial, 72, review, act, under, protection, refugee, section, immigration, decision",34
+80,Pakistan Return And Family Matters,"pakistan, return, returning, iran, arrangements, family, behind, wish, organizational, appellant",34
+81,Perceived Past Behavior & Plausibility,"perceived, past, behaviour, events, plausibility, meant, by, and, is, what",33
+82,Credibility Assessment Definition,"define, assessment, credibility, , , , , , , ",33
+83,Perceived Past Behavior & Plausibility,"perceived, past, behaviour, events, plausibility, meant, by, and, is, what",32
+84,Assessing Relationship Qualities,"relationship, romantic, long, genuine, factors, genuineness, assessing, term, length, predict",31
+85,Psychological Assessment And Reactions,"counselling, psychological, symptoms, alterations, mood, depressive, reactions, psychiatric, dissociative, report",31
+86,ogboni fraternity influence nigeria,"nigeria, fraternity, ogboni, influence, affidavits, today, ghana, swearing, government, escaping",31
+87,Hybrid Appeal Definition & Assessment,"hybrid, plausibility, suitability, assessment, definition, appeal, provide, used, determine, findings",30
+88,Credibility And Sentiment Assessment,"overall, sentiment, credibility, define, assessment, and, , , , ",30
+89,Visa Refusal Information,"refusal, visa, application, refused, reasons, denied, were, refusing, denial, permit",30
+90,Hindu Marriage Under IRPA,"genuine, marriage, hindu, irpa, 1955, purposes, valid, according, prong, entered",28
+91,Haitian-Brazilian Permanent Resident Rights,"brazil, brazilian, haitians, haiti, permanent, rights, nationals, haitian, 2017, resident",28
+92,Natural Justice And Fairness,"justice, natural, fairness, procedural, breach, principle, bias, duty, observed, compulsion",28
+93,Perceived Past Behavior & Plausibility,"perceived, past, behaviour, events, plausibility, meant, by, and, offences, is",28
+94,visa officer marriage concerns,"officer, visa, spousal, marriage, sponsorship, conclusions, concerns, refusal, about, second",28
+95,Sai Iad File And Client IDs,"client, id, no, file, de, sai, iad, dossier, la, number",28
+96,Credibility Assessment Definition,"define, assessment, credibility, , , , , , , ",28
+97,Citizenship Immigration Legal Cases,"citizenship, cases, minister, canlii, canada, scc, ca, attorney, court, involving",28
+98,Canadian Permanent Resident Requirements,"permanent, resident, residents, requirements, canada, residency, status, canadian, maintaining, obligations",27
+99,Primary Purpose Assessment Criteria,"primary, criteria, assess, applicants, test, purpose, representations, several, pra, marketability",27
+100,Torture And Cruel Treatment,"torture, cruel, treatment, unusual, risk, punishment, or, danger, gave, captured",27
+101,Irbs And Translation Request Guidance,"translation, request, cisr, irb, services, translated, how, from, documents, contact",27
+102,Appellant Citizenship Status Inquiry,"citizenship, history, status, immigration, affidavit, summary, belinda, nazer, marar, martinez",27
+103,Marriage Panel Assessment,"marriage, panel, entering, intent, parties, examine, into, primary, purchased, genuineness",26
+104,Credibility Assessment Definition,"define, assessment, credibility, , , , , , , ",26
+105,Sentiment And Credibility Assessment,"sentiment, considered, credibility, is, what, of, , , , ",26
+106,Ministerial Representation And Counsel,"minister, representative, designated, counsel, cooperate, commissioner, agent, deputy, consist, pastor",26
+107,Hearing Summary & Details,"hearing, summary, details, presented, at, friend, december, observing, interventions, firsthand",26
+108,Refugee Appeal Division Definitions,"division, refugee, appeal, role, redetermination, used, definition, provide, request, standard",25
+109,Rad Role And Responsibilities,"rad, role, substitute, remedial, aside, power, sets, includes, deferential, earning",25
+110,Immigration Appeal Division Definition,"division, immigration, appeal, rules, rule, execute, 43, 230, 46, cancel",25
+111,Exhibit References Listing,"exhibits, exhibit, list, referenced, tab, page, pages, xxxxxxxxxxxxxx, accept, references",25
+112,Appeal Dismissal Definitions,"dismissal, appeal, injustice, termination, statutory, dismiss, protect, definition, discretion, provide",25
+113,visa officer concerns,"officer, visa, concerns, notes, opportunity, interview, raised, responding, pen, contributions",25
+114,Defining Technical Terms & Concepts,"xxxx, xxxxxxxxx, xxxxxxxx, term, 009, lifax, mercury, 196, tsi, umphaka",25
+115,Form Completion & Application Issues,"forms, application, visitor, post, visa, resume, mismatch, forgetting, equivocation, lapse",24
+116,Parent-Child Relationships Definition,"parent, child, relationship, genuine, loving, adoption, close, parents, analogy, negotiated",24
+117,Permanent Resident Sponsorship Requirements,"sponsorship, sponsor, approval, sponsoring, income, application, foreign, under, calculated, resident",24
+118,Crimes Against Humanity And War,"crimes, humanity, against, war, international, crime, statute, complicity, charter, committing",24
+119,"Credibility, Sentiment, And Assessment","sentiment, credibility, define, assessment, and, of, , , , ",23
+120,Rad File Documentation & Inquiry,"sar, de, file, la, dossier, tb6, no, rad, mc0, tb9",23
+121,Removal Order Validity Concerns,"removal, order, validity, force, issuing, repercussions, aref, moshtagh, valid, happen",23
+122,Rpd Definition And Support,"rpd, error, 15, 29, 01, français, supportable, distinct, disponible, advantages",23
+123,Serious Possibility Of Persecution,"possibility, persecution, serious, risk, reasonable, board, must, analyzed, there, probability",23
+124,Removal Order Definition,"removal, order, unmik, approach, definition, provide, irpa, purpose, under, of",22
+125,Dependent Child Definitions,"dependent, child, dependency, situations, support, landing, full, regulations, set, time",22
+126,Deportation Appeal Considerations,"deportation, order, factors, supreme, xxxxxx, considered, according, cases, committal, thxxxxxxxxxxxxxxxxxxxx",22
+127,Plausibility And Credibility Definition,"plausibility, assessment, credibility, context, in, definition, provide, define, of, and",22
+128,israeli military intelligence involvement,"israeli, israel, intelligence, hezbollah, military, brothers, father, claimant, palestine, involvement",22
+129,1951 Refugee Convention Definition,"convention, refugees, relating, refugee, nations, 1951, united, handbook, admission, determined",22
+130,Marriage genuineness verification,"genuineness, marriage, demonstrate, genuine, evidence, guiding, totality, quality, weighed, sufficient",22
+131,minister citizenship hearing dates,"date, hearing, place, location, minister, decision, citizenship, july, preparedness, 2016",22
+132,Canadian Family Reunification Process,"reunification, unity, family, canadian, children, canada, father, adjusted, leaves, daycare",21
+133,Burden Of Proof Concept,"burden, proof, onus, met, case, this, shift, discharge, reversal, proceedings",21
+134,Semantic Passage Content Analysis,"passage, semantic, content, described, cited, references, sentence, passages, migrants, exceptions",21
+135,Permanent Resident Visa Appeals,"resident, permanent, visa, refusal, approve, appeal, application, successfully, stemming, residence",21
+136,Humanitarian And Compassionate Appeals,"compassionate, humanitarian, grounds, appeals, considerations, appeal, requested, dismiss, dismissing, spousal",20
+137,Jamaica Travel Discrepancy,"jamaica, he, sooner, return, vietnam, his, states, has, why, boycotts",20
+138,Removal Order Appeals Definition,"removal, order, appeal, against, punished, terminate, occurs, cancel, least, appealing",20
+139,Somali Clan and Yibr Culture,"yibr, clans, groups, somali, yibir, minority, occupational, somalia, mahdiban, tribe",20
+140,Deference In Credibility Assessment,"deference, owed, findings, scope, degree, respect, ize, owes, recogn, takes",19
+141,Refugee Appeal Division Role,"rad, refugee, role, claim, decision, reviewing, unfounded, manifestly, after, rejection",19
+142,Legal Interpretation And Amendments,"interpreter, amendment, translator, translation, 2018, boc, affidavit, january, arabic, interpreting",19
+143,Seeking Protection in Mexico,"mexico, seeking, claimant, agencies, seek, international, steps, protection, help, country",19
+144,Refugee Status Determination Handbook,"determination, status, refugee, criteria, displaced, handbook, stance, cessation, opinions, determining",19
+145,Dismissal And Appeal Definitions,"dismissal, appeal, dismissed, dismissing, definition, provide, of, meaning, an, reasons",19
+146,India Return Travel Queries,"india, qatar, return, travel, remaining, equity, mumbai, travelling, returning, satisfy",19
+147,Special Relief Definitions,"special, relief, favour, threshold, mited, weighing, warranted, positive, assistance, considerations",19
+148,Residency Compliance & Obligations,"residency, permanent, parents, comply, met, failure, relinquishing, fulfil, reflect, residence",19
+149,Chalatenango Stabbing Incident Description,"stabbing, description, shot, assault, surrounding, victim, incident, describe, attack, chalatenango",18
+150,Pri Party Investigation Story,"party, pri, candidates, election, outline, pan, opposition, involvement, xxxxx, story",18
+151,Rpd Record Definitions,"record, rpd, exhibit, item, 12, pp, 323, 352, 2016, pak",18
+152,Canadian Return And Arrival,"he, toronto, arrive, canada, 1973, getting, licensing, weeks, his, specifics",18
+153,applicant age and demographics,"age, ages, nationalities, countries, difference, applicant, 02262, mb7, interpret, birthdates",18
+154,Residency Obligation Compliance Issues,"obligation, residency, discretionary, meet, breach, failed, despite, comply, appropriate, failure",18
+155,Visa Officer Decision Validity,"officer, validity, decision, conclusion, legal, immigration, visa, kingston, disjunctive, csis",18
+156,Residency Non-Compliance Obligations,"residency, obligation, extent, compliance, comply, non, obligations, breach, with, failing",18
+157,Humanitarian Immigration Appeals,"humanitarian, compassionate, considerations, appeals, 65, visa, grounds, entry, immigration, cases",18
+158,Contextual Credibility Assessment,"context, plausibility, define, assessment, implausibility, meaning, credibility, in, of, the",18
+159,Special Relief Considerations,"special, relief, granting, weigh, granted, circumstances, grounds, positively, merited, merit",17
+160,Humanitarian residency considerations,"residency, considerations, humanitarian, obligation, compassionate, overcome, compliance, relief, non, obligations",17
+161,Conjugal Relationships Definition,"conjugal, partner, recognition, relationship, common, partners, characteristic, exclusive, resources, law",17
+162,Sponsorship Appeal Definitions,"sponsorship, appeal, eligibility, sponsored, interpreter, hearing, admissibility, class, role, definition",17
+163,Colombia Human Rights 2009,"colombia, human, rights, farc, eln, 2009, abuses, practices, colombian, kidnapping",17
+164,Refugee Protection Appeals and Claims,"refugee, protection, appeal, exhaust, remedies, fgm, granted, claim, asylum, outcome",17
+165,Res Judicata Definition And Principle,"res, judicata, doctrine, principle, adoption, definition, provide, context, of, meant",17
+166,Panel Tribunals And Designations,"tribunal, panel, erwin, designations, alidina, nest, committee, inquiry, xxxxxxxxxxxxxxxxx, roles",17
+167,Irpa Status And Acquisition,"privilege, acquiring, status, under, or, purpose, irpa, gaining, any, acquisition",16
+168,Irpa Marriage Appeal Requirements,"succeed, dismissing, spouse, disqualifying, marriage, requirements, regulations, irpa, status, adjudication",16
+169,Designated Representative Roles,"designated, representative, appointing, conference, proceedings, define, pre, requirements, legal, act",16
+170,Hardship Related To Removal From Canada,"hardship, removal, caused, loss, canada, impact, reliant, enforced, breadwinner, stop",16
+171,Employment And Institute History,"employment, telecom, gs, mr, history, xxxxxx, activities, institute, habitation, boss",16
+172,Historical Narrative Credibility Assessment,"narrative, past, events, plausibility, hand, observation, underlying, reliability, define, behaviour",16
+173,Immigration Residency Obligations,"28, residency, section, obligation, act, under, obligations, protection, refugee, tuition",16
+174,Phone Calls And Conversations,"phone, call, telephone, discussed, much, calls, parties, discussing, transmission, conversations",16
+175,Visa Refusal Definitions,"refusal, letter, dated, invalidate, valid, validity, justification, refusals, part, august",16
+176,Permanent Resident Application Refusals,"permanent, refusal, denial, resident, visa, residence, application, entities, csis, reasons",15
+177,Vulnerable Person Procedure Guidelines,"vulnerable, guideline, appearing, persons, procedures, person, respect, irb, defined, before",15
+178,Humanitarian and Compassionate Grounds,"compassionate, grounds, humanitarian, voluntary, 65, ground, insufficient, needed, overcome, sufficient",15
+179,Prospective Risk Assessment,"risk, prospective, implicit, articulated, generalized, bears, profiles, greater, sanctions, preparedness",15
+180,Legal Appeal & Dismissal Process,"dismiss, dismissed, appeal, dismissal, recommendation, confirming, declare, abandoned, withdrawing, allow",15
+181,Disclosure Of Criminal Records,"criminal, conviction, convictions, disclose, convicted, another, involved, charges, knowingly, withhold",14
+182,Undue Hardship Definition,"hardship, undue, disproportionate, undeserved, unus, ual, unduly, duress, harsh, strong",14
+183,Case Factor Analysis,"factor, case, factors, analyzing, intentions, assessing, reaching, mitigating, pull, considered",14
+184,Judicial Review Definition,"judicial, review, route, courts, decision, leave, role, definition, provide, of",14
+185,Res Judicata Legal Principle,"res, judicata, preconditions, principle, applying, issue, circumstances, doctrine, prevent, estoppel",14
+186,Credibility And Sentiment Assessment,"sentiment, credibility, define, assessment, and, , , , , ",14
+187,Mental Health & Medical History,"depression, anxiety, medical, diagnosis, attacks, regimen, charged, hospitalizations, diagnoses, adhd",14
+188,Legal Counsel & Ministerial Representation,"counsel, minister, for, solicitor, randal, jain, barrister, submissions, define, appellant",14
+189,Immigration Fraud And Disclosure,"applications, disclosure, authorities, repeatedly, lying, questionable, evasiveness, honest, unregulated, consultants",14
+190,De Novo Hearing Definitions,"novo, de, hearing, limited, justifies, trial, appeal, iad, date, definition",14
+191,Eritrean Passport and Citizenship,"eritrean, ethiopia, license, driver, passport, citizen, ethiopian, obtaining, school, nationality",14
+192,Djibouti Returnee Economic Concerns,"djibouti, salary, monthly, political, francs, average, widow, returnees, gross, dollars",14
+193,Zimbabwean Migration and Appeals,"zimbabwe, kenya, tanzania, leaving, paragraphs, inclusive, departing, 123522, finding, 2016",14
+194,Work Permit And LMIA Applications,"permit, history, work, lmia, approval, viewed, beneficiaries, engineer, chemical, learning",14
+195,Evidence Under Section 110,"110, subsection, section, evidence, new, under, passing, adr, appropriateness, rpa",13
+196,Appellant Background Summary,"background, summary, information, included, personal, sharing, cell, companion, girl, living",13
+197,Passport And Travel Document Requests,"passport, copy, travel, document, or, acquisition, extension, your, application, avail",13
+198,Trv Application And Refusals,"trv, application, ov, assurances, prepared, refusals, made, signature, dispute, purpose",13
+199,Rehabilitation Definition And Assessment,"rehabilitation, program, hol, indicators, contexts, full, drug, possibility, loss, context",13
+200,Vietnam Trip Inquiry 2006,"vietnam, trip, 2006, travel, visits, dalat, ho, chi, minh, neighboring",13
+201,Decision-Making And Information Analysis,"decision, based, thorough, choices, contains, drawing, helpful, existing, information, discussion",13
+202,Indian Citizenship Deprivation,"citizenship, indian, deprivation, stateless, revoke, congolese, asserting, lost, acquired, country",13
+203,Seeking Protection Steps,"seek, steps, protection, reasonable, laminated, fatal, re, exhausting, availment, oneself",13
+204,Rpd Hearing Transcript Cluster,"transcript, audio, recording, hearing, recordings, 01867, rpd, tb7, transcripts, redundancy",13
+205,Female Genital Mutilation Concerns,"fgm, female, genital, mutilation, assault, prohibiting, rape, cutting, correction, nigeria",13
+206,Understanding Plausibility's Meaning,"plausibility, meant, by, meaning, is, what, define, of, the, ",12
+207,Humanitarian Compassion & Considerations,"compassionate, humanitarian, considerations, generosity, humanitarianism, helpfulness, prtd, compassion, truthfulness, consideration",12
+208,Domestic Arrests And Family Issues,"arrest, she, father, her, protect, police, 2012, woman, steps, searching",12
+209,Employee Termination and Management,"dismissal, discontinuance, vehement, resignation, appointment, denunciation, notice, management, disposition, company",12
+210,Tribunal Counsel Roles Definition,"tribunal, counsel, xxxxxxxxxxxxxx, panel, xxxxxxxxxxxx, mojdeh, shahriari, roles, define, designated",12
+211,Budisukma Puncak Court Decisions,"summary, court, decision, 01887, berhad, budisukma, sendirian, puncak, federal, 00697",12
+212,Non-accompanying family member provision,"accompanying, non, examined, disclose, provision, failing, jeopardized, preclude, family, members",12
+213,Legal Validity And Ambiguity,"validity, legal, vague, terms, ambiguity, materiality, law, wording, violation, statutory",12
+214,Tribunal Definitions And Procedures,"tribunal, wer, calling, lower, tribunals, setting, prevent, terms, used, jurisdiction",12
+215,Subjective Fear And Appellants,"subjective, fear, corroborating, nonchalance, always, legitimately, stan, exists, determinative, basis",12
+216,Refugee Claim Timeline & Process,"timeline, related, permit, appeared, kevin, 49, claim, deportation, czech, old",12
+217,Well-Founded Fear Of Persecution,"founded, fear, well, persecution, assume, punishment, unusual, it, cruel, differences",12
+218,Lahore Risk Assessment & Persecution,"lahore, risk, iran, had, notoriety, contract, farsi, sikhs, apostate, anywhere",11
+219,Internal Flight Alternatives & Romania,"flight, internal, alternative, romania, return, viable, country, nationality, unit, uk",11
+220,Final Reconsideration Process,"reconsideration, final, schedulin, rescinded, finality, 48, chairperson, ribic, imprisonment, confirmation",11
+221,Documentary Evidence Cluster,"documentary, photographic, evidence, package, chile, documentation, visits, proceedings, national, contact",11
+222,Rpd File Number Definition,"spr, de, dossier, ma9, no, la, file, mb0, tb9, 10268",11
+223,Letter Discrepancies And Intentions,"letters, letter, may, 14th, something, 22nd, amiss, intentions, psychiatrist, greeting",11
+224,Appellant-Applicant Relationship Timeline,"timeline, september, visits, 1995, relationship, applicant, 1996, between, august, meetings",11
+225,Canlii Irb Case Definitions,"canlii, ca, irb, no, client, vb6, id, de, sai, la",10
+226,escape and accomplice movements,"accomplice, movements, escape, go, surrounded, motorbike, approached, felt, attackers, comfort",10
+227,Affidavits And Notarization Processes,"affidavits, affidavit, notarization, notaries, guarantees, confidentiality, ethical, notary, obligations, xxxxxxxxxxx",10
+228,Discretionary Relief Definitions,"discretionary, relief, colleague, open, may, powers, appeals, granting, concerning, discretion",10
+229,Sibling Relationships And Schemes,"siblings, brother, younger, embellish, feigned, exchange, scheme, meeting, choose, sibling",10

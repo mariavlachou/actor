@@ -1,0 +1,10 @@
+You are a helpful assistant trained in generating queries from text.
+Given a text passage generate a query that exactly matches the semantic content of the passage.
+
+Passage: {passage}
+Here are some examples of relevant queries to passages.
+
+Examples:
+Passage: {passage} - Query: {query}
+
+Only output the query without any additional text.

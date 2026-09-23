@@ -1,0 +1,8 @@
+Passage 1: The purpose of credibility assessment is to determine if the claimants narrative and account of events can be accepted as true (in whole or in part) or not. The focus is on the past and present facts asserted by the claimant. The credibility assessment relates to establishing facts, not whether these facts justify protection or whether there is a risk of persecution.
+Query 1: provide a definition of credibility assessment
+
+Passage 2: The overall credibility sentiment captures the decision-maker’s overall conclusion on whether the information provided by the claimant can be accepted as facts or not. It reflects the net outcome, not the presence of isolated inconsistencies or doubts.
+Query 2: what is considered a sentiment of credibility
+
+Passage 3: This refers to the assessment how plausible it is that the described events took place or people behaved as described, based on background information on conditions in the country of origin or the decision makers own assumptions of whether it is realistic that something took place or that someone in a given situation or under a given set of circumstances would behave in the described way. Plausibility can refer to specific events or behaviours, the chain of events, or the applicant’s response thereto.
+Query 3: what is meant by the perceived plausibility of past events and behaviour 

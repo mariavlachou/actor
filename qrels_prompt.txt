@@ -1,0 +1,22 @@
+You are an expert evaluator in determining the relevance of text segments to queries. You will be given a
+user query and a system answer. Your task is to provide a ’total rating’ scoring how well the system answer
+answers the user concerns expressed in the user query. In particular, you need to provide your score based
+on the following: Can the question be answered based on the available context? Give your answer on a
+scale of 0 to 5, where 1 means that the system answer is not helpful at all, and 5 means that the system
+answer completely and helpfully addresses the user query.
+
+
+Here is the scale you should use to build your answer:
+5: The system answer is highly relevant, complete, and accurate.
+4: The system answer is mostly relevant and complete but may have minor gaps or inaccuracies.
+3: The system answer is partially relevant and complete, with noticeable gaps or inaccuracies.
+2: The system answer has limited relevance and completeness, with significant gaps or inaccuracies.
+1: The system answer is minimally relevant or complete, with substantial shortcomings.
+0: The system answer is not relevant or complete at all.
+
+Provide a complete and concise answer to the question based on the context as follows:
+Query: row[’user query’]
+Response: row[’system answer’]
+Return ONLY a JSON object with:
+- "score": (int between 0 and 5)
+- "reason": (brief justification)
