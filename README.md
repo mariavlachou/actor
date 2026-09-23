@@ -55,3 +55,8 @@ Also, Ollama, running (ollama serve &) for example for models like gemma3:4b, ll
 python3 full_pipeline_generic.py --dataset fln
 
 ```
+
+Without the precomputed values, the full pipeline takes roughly 5-6 hours to run on an Apple M4
+Pro with 24GB RAM. 
+
+## Running the visualisation
