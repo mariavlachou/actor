@@ -1,5 +1,5 @@
 # actor
-This repository contains the functionality of our toolkit for Outcome Review. To reproduce the method mentioned in the paper, here are the steps_
+This repository contains the functionality of our toolkit for Outcome Review. To reproduce the method mentioned in the paper, here are the steps:
 - Clone this repository.
 ```python
 git clone https://github.com/mariavlachou/actor
@@ -20,20 +20,17 @@ This file contains an example used for the fln dataset, and since the artifacts 
 
  ```
 jupyter nbconvert --to notebook --execute --inplace full_pipeline_example.ipynb --ExecutePreprocessor.timeout=1800
-
 ``` 
 
 - If you would like to specify the dataset instead, you can run
 ```
 /opt/anaconda3/bin/python3 full_pipeline_generic.py --dataset fln
-
 ```
 
 or to specify how many samples you want
 
 ```
 /opt/anaconda3/bin/python3 full_pipeline_generic.py --dataset euaa --sample-size 50
-
 ```
 
 
@@ -42,7 +39,6 @@ or to run it from a cluster follow the steps:
 ```
 python3 -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt
-
 ```
 
 and note that you need the following non-pip prerequisites:
@@ -53,7 +49,6 @@ Also, Ollama, running (ollama serve &) for example for models like gemma3:4b, ll
 - run the pipeline as
 ```
 python3 full_pipeline_generic.py --dataset fln
-
 ```
 
 Without the precomputed values, the full pipeline takes roughly 5-6 hours to run on an Apple M4
@@ -61,11 +56,10 @@ Pro with 24GB RAM.
 
 ## Running the visualisation
 
-To interact with the interface, you will need Streamlit (see in requirements). You can run:
+To interact with the interface, you will need Streamlit (see in requirements). To run it locally, you can run:
 
 ```
 streamlit run retrieval_results_app.py
-
 ```
 
 or if you want to first kill an exiting instance, use
@@ -73,6 +67,11 @@ or if you want to first kill an exiting instance, use
 ```
 pkill -f "streamlit run retrieval_results_app.py"; sleep 1; cd /Users/qbr926/Desktop/actor && (streamlit run retrieval_results_app.py --server.port 8501 &) && sleep 3 && open http://localhost:8501
 
-
 ```
 
+If you are trying to run it on a cluster, use: 
+
+```
+ssh -L 8501:localhost:8501 you@cluster-node "cd actor && source .venv/bin/activate && streamlit run retrieval_results_app.py --server.headless true --server.port 8501" & sleep 5 && open http://localhost:8501
+
+```
