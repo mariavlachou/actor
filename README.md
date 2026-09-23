@@ -61,7 +61,7 @@ Pro with 24GB RAM.
 
 ## Running the visualisation
 
-To interact with the interface, you can run:
+To interact with the interface, you will need Streamlit (see in requirements). You can run:
 
 ```
 streamlit run retrieval_results_app.py
