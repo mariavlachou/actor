@@ -9,6 +9,8 @@ cd actor
 ```python
 pip install -r requirements.txt
 ```
+
+## Running the pipeline with the precomputed values
 - To run the pipeline from getting data from the corresponding website up to producing the evaluation metrics, you can run:
  ```cd path/to/actor
 /opt/anaconda3/bin/jupyter nbconvert --to notebook --execute --inplace full_pipeline_example.ipynb --ExecutePreprocessor.timeout=1800
