@@ -60,3 +60,19 @@ Without the precomputed values, the full pipeline takes roughly 5-6 hours to run
 Pro with 24GB RAM. 
 
 ## Running the visualisation
+
+To interact with the interface, you can run:
+
+```
+streamlit run retrieval_results_app.py
+
+```
+
+or if you want to first kill an exiting instance, use
+
+```
+pkill -f "streamlit run retrieval_results_app.py"; sleep 1; cd /Users/qbr926/Desktop/actor && (streamlit run retrieval_results_app.py --server.port 8501 &) && sleep 3 && open http://localhost:8501
+
+
+```
+
