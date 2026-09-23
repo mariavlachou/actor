@@ -22,7 +22,7 @@ This file contains an example used for the fln dataset, and since the artifacts 
 jupyter nbconvert --to notebook --execute --inplace full_pipeline_example.ipynb --ExecutePreprocessor.timeout=1800
 ``` 
 
-- If you would like to specify the dataset instead, you can run
+- If you would like to specify the dataset instead, you can run the file that allows you to select the type of website/dataset as:
 ```
 /opt/anaconda3/bin/python3 full_pipeline_generic.py --dataset fln
 ```
