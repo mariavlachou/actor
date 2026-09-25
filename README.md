@@ -24,13 +24,13 @@ jupyter nbconvert --to notebook --execute --inplace full_pipeline_example.ipynb 
 
 - If you would like to specify the dataset instead, you can run the file that allows you to select the type of website/dataset as:
 ```
-/opt/anaconda3/bin/python3 full_pipeline_generic.py --dataset fln
+/opt/anaconda3/bin/python3 src/full_pipeline_generic.py --dataset fln
 ```
 
 or to specify how many samples you want
 
 ```
-/opt/anaconda3/bin/python3 full_pipeline_generic.py --dataset euaa --sample-size 50
+/opt/anaconda3/bin/python3 src/full_pipeline_generic.py --dataset euaa --sample-size 50
 ```
 
 
@@ -48,7 +48,7 @@ Also, Ollama, running (ollama serve &) for example for models like gemma3:4b, ll
 
 - run the pipeline as
 ```
-python3 full_pipeline_generic.py --dataset fln
+python3 src/full_pipeline_generic.py --dataset fln
 ```
 
 Without the precomputed values, the full pipeline takes roughly 5-6 hours to run on an Apple M4
@@ -65,7 +65,7 @@ streamlit run retrieval_results_app.py
 or if you want to first kill an exiting instance, use
 
 ```
-pkill -f "streamlit run retrieval_results_app.py"; sleep 1; cd /Users/qbr926/Desktop/actor && (streamlit run retrieval_results_app.py --server.port 8501 &) && sleep 3 && open http://localhost:8501
+pkill -f "streamlit run retrieval_results_app.py"; sleep 1; cd path/to/actor && (streamlit run retrieval_results_app.py --server.port 8501 &) && sleep 3 && open http://localhost:8501
 
 ```
 

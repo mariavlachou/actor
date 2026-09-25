@@ -50,3 +50,10 @@ jupyter>=1.0
 nbformat>=5.10
 nbclient>=0.10
 papermill>=2.6
+
+# For extract_topics_legalbert.py (Legal-BERT feature extraction; BERTopic
+# already pulls in torch, but transformers is imported directly) and
+# plot_top_topics.py (doughnut charts of the top topics per dataset).
+transformers>=4.40
+matplotlib>=3.7
+seaborn>=0.13
