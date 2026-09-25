@@ -1,5 +1,5 @@
 # actor
-This repository contains the functionality of our toolkit for Outcome Review. To reproduce the method mentioned in the paper, here are the steps:
+This repository contains the functionality of ACTOR: our Asylum Chunking Toolkit for Outcome Review. To reproduce the method mentioned in the paper, here are the steps:
 - Clone this repository.
 ```python
 git clone https://github.com/mariavlachou/actor
