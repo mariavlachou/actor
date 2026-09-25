@@ -19,7 +19,7 @@ from typing import Tuple
 
 from scraper import FLN_PRAKSIS, SiteConfig, WebsiteScraper
 
-DEFAULT_OUTPUT_PATH = "fln_praksis_2026.csv"
+DEFAULT_OUTPUT_PATH = "data/fln_praksis_2026.csv"
 DEFAULT_FILTER_LABEL = "Afgørelsesår"
 DEFAULT_FILTER_VALUE = "2026"
 

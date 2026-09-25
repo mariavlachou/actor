@@ -39,6 +39,7 @@ import glob
 import html
 import os
 import re
+import sys
 import textwrap
 from concurrent.futures import ThreadPoolExecutor
 from typing import Dict, List, Optional
@@ -46,15 +47,20 @@ from typing import Dict, List, Optional
 import pandas as pd
 import streamlit as st
 
-from generate_queries import call_ollama
-
-# Resolve data files relative to this script's own location, not the working
-# directory streamlit happened to be launched from.
+# Resolve data/source files relative to this script's own location, not the
+# working directory streamlit happened to be launched from. This app stays at
+# the repo root (per project convention) while its data and sibling modules
+# live in data/ and src/ respectively.
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+DATA_DIR = os.path.join(BASE_DIR, "data")
+SRC_DIR = os.path.join(BASE_DIR, "src")
+sys.path.insert(0, SRC_DIR)
+
+from generate_queries import call_ollama  # noqa: E402 (needs SRC_DIR on sys.path first)
 
 
 def _find(pattern: str) -> List[str]:
-    return sorted(glob.glob(os.path.join(BASE_DIR, pattern)))
+    return sorted(glob.glob(os.path.join(DATA_DIR, pattern)))
 
 
 # Maps the stem prefix every topics/results/labels file for a base dataset
@@ -190,18 +196,28 @@ def inject_styles() -> None:
     )
 
 
+# Nicer, project-specific labels for the Dataset dropdown, keyed by each
+# dataset's underlying file stem. Any stem not listed here falls back to a
+# humanized version of the stem itself (see discover_datasets()).
+DATASET_DISPLAY_NAMES = {
+    "euaa_asylum_report_chunks_legalbert_topic_names_qid_query": "EUAA - with Asylex labels",
+    "euaa_asylum_report_queries_topic_names_qid_query": "EUAA",
+    "fln_praksis_2026_queries_topic_names_qid_query_sample30": "FLN sample",
+}
+
+
 @st.cache_data
 def discover_datasets() -> Dict[str, dict]:
     """Find every judged dataset (has a *_pool_labels.csv) and its result/topic/chunk files."""
     datasets: Dict[str, dict] = {}
     for labels_path in _find("*_pool_labels.csv"):
         stem = os.path.basename(labels_path)[: -len("_pool_labels.csv")]
-        topics_path = os.path.join(BASE_DIR, f"{stem}.csv")
+        topics_path = os.path.join(DATA_DIR, f"{stem}.csv")
         if not os.path.exists(topics_path):
             continue
 
         chunks_filename = next((v for k, v in BASE_DATASET_CHUNKS.items() if stem.startswith(k)), None)
-        chunks_path = os.path.join(BASE_DIR, chunks_filename) if chunks_filename else None
+        chunks_path = os.path.join(DATA_DIR, chunks_filename) if chunks_filename else None
         if chunks_path is None or not os.path.exists(chunks_path):
             continue
 
@@ -220,7 +236,9 @@ def discover_datasets() -> Dict[str, dict]:
         if not methods:
             continue
 
-        display_name = stem.replace("_queries_topic_names_qid_query", "").replace("_", " ")
+        display_name = DATASET_DISPLAY_NAMES.get(
+            stem, stem.replace("_queries_topic_names_qid_query", "").replace("_", " ")
+        )
         datasets[stem] = {
             "label": display_name,
             "topics_csv": topics_path,

@@ -84,35 +84,35 @@ class DatasetPaths:
 
     @property
     def scrape_csv(self) -> str:
-        return f"{self.stem}.csv"
+        return f"data/{self.stem}.csv"
 
     @property
     def chunks_csv(self) -> str:
-        return f"{self.stem}_chunks.csv"
+        return f"data/{self.stem}_chunks.csv"
 
     @property
     def queries_csv(self) -> str:
-        return f"{self.stem}_queries.csv"
+        return f"data/{self.stem}_queries.csv"
 
     @property
     def per_query_topics_csv(self) -> str:
-        return f"{self.stem}_queries_topics.csv"
+        return f"data/{self.stem}_queries_topics.csv"
 
     @property
     def topic_names_csv(self) -> str:
-        return f"{self.stem}_queries_topic_names.csv"
+        return f"data/{self.stem}_queries_topic_names.csv"
 
     @property
     def topics_qid_query_csv(self) -> str:
-        return f"{self.stem}_queries_topic_names_qid_query.csv"
+        return f"data/{self.stem}_queries_topic_names_qid_query.csv"
 
     @property
     def chunks_docs_csv(self) -> str:
-        return f"{self.stem}_chunks_docs.csv"
+        return f"data/{self.stem}_chunks_docs.csv"
 
     @property
     def sample_topics_csv(self) -> str:
-        return f"{self.stem}_queries_topic_names_qid_query_sample{self.sample_size}.csv"
+        return f"data/{self.stem}_queries_topic_names_qid_query_sample{self.sample_size}.csv"
 
     @property
     def sample_stem(self) -> str:

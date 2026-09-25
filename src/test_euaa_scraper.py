@@ -20,7 +20,7 @@ import dataclasses
 
 from browser_scraper import EUAA_CASELAW, BrowserSiteConfig, BrowserWebsiteScraper
 
-DEFAULT_OUTPUT_PATH = "euaa_asylum_report.csv"
+DEFAULT_OUTPUT_PATH = "data/euaa_asylum_report.csv"
 DEFAULT_FILTER_LABEL = "Input Provider"
 DEFAULT_FILTER_VALUE = "EUAA Asylum Report"
 

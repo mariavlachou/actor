@@ -6,7 +6,7 @@ Default target: https://huggingface.co/datasets/clairebarale/AsyLex
 
 from hf_dataset_sampler import HFDatasetConfig, HFDatasetSampler
 
-OUTPUT_PATH = "asylex_raw_documents_sample.csv"
+OUTPUT_PATH = "data/asylex_raw_documents_sample.csv"
 
 
 def main() -> None:

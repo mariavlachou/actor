@@ -55,7 +55,7 @@ class JudgeConfig:
 
     input_csv: str  # a *_pool.csv file: columns qid, query, docno, text, rank, score
     model: str = "llama3.1:8b"
-    prompt_template_path: str = "qrels_prompt.txt"
+    prompt_template_path: str = "prompts/qrels_prompt.txt"
     ollama_host: str = "http://localhost:11434"
     output_csv: Optional[str] = None  # default: "<input>_labels.csv"
     limit: Optional[int] = None  # only judge the first N rows (handy for testing)

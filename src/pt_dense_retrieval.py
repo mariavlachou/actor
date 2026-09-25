@@ -120,7 +120,7 @@ class DenseRetrievalPipeline:
     # ------------------------------------------------------------------
     def _default_index_dir(self) -> str:
         stem = os.path.splitext(os.path.basename(self.config.docs_csv))[0]
-        return os.path.abspath(f"./pt_dense_index_{stem}_{self.config.retriever}")
+        return os.path.abspath(f"./index_dir/pt_dense_index_{stem}_{self.config.retriever}")
 
     def build_index(self, docs: pd.DataFrame, encoder) -> str:
         cfg = self.config
@@ -163,7 +163,7 @@ class DenseRetrievalPipeline:
         return df
 
     def _default_output_path(self) -> str:
-        stem = os.path.splitext(os.path.basename(self.config.topics_csv))[0]
+        stem = os.path.splitext(self.config.topics_csv)[0]
         return f"{stem}_{self.config.retriever}.csv"
 
 

@@ -49,8 +49,8 @@ class QueryGenConfig:
     input_csv: str
     model: str = "gemma3:4b"
     chunk_text_column: str = "chunk_text"
-    prompt_template_path: str = "fewshot_qgen.txt"
-    examples_path: str = "fewshot_examples.txt"
+    prompt_template_path: str = "prompts/fewshot_qgen.txt"
+    examples_path: str = "prompts/fewshot_examples.txt"
     ollama_host: str = "http://localhost:11434"
     output_csv: Optional[str] = None  # default: "<input, minus _chunks>_queries.csv"
     limit: Optional[int] = None  # only process the first N chunks (handy for testing)

@@ -10,7 +10,7 @@ import argparse
 
 from chunk_documents import ChunkingConfig, DocumentChunker
 
-DEFAULT_INPUT_CSV = "asylex_raw_documents_sample.csv"
+DEFAULT_INPUT_CSV = "data/asylex_raw_documents_sample.csv"
 DEFAULT_TEXT_COLUMN = "txt"
 
 

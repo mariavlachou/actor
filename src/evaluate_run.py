@@ -43,9 +43,9 @@ import pyterrier as pt
 # Maps a short --dataset label to the stem shared by that dataset's topics,
 # pool, and result files (see topic_to_queries.py / pool_results.py).
 DATASET_TOPIC_STEMS = {
-    "euaa": "euaa_asylum_report_queries_topic_names_qid_query",
-    "fln": "fln_praksis_2026_queries_topic_names_qid_query",
-    "asylex": "asylex_raw_documents_sample_queries_topic_names_qid_query",
+    "euaa": "data/euaa_asylum_report_queries_topic_names_qid_query",
+    "fln": "data/fln_praksis_2026_queries_topic_names_qid_query",
+    "asylex": "data/asylex_raw_documents_sample_queries_topic_names_qid_query",
 }
 
 

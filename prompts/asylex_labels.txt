@@ -1,0 +1,9 @@
+Here are some Analysis & Reasons for Decision Outcome:
+
+CREDIBILITY: Mentions assessing the trustworthiness of the testimony, which is crucial in refugee status determination (e.g., "lack of evidence", "inconsistencies").
+
+DETERMINATION: The exact sections or phrasing where the tribunal formally evaluates or concludes a point of contention.
+
+LEGAL_GROUND: The technical legal basis or risks cited for the assessment (e.g., risk of cruel or unusual treatment).
+
+EXPLANATION: Descriptive rationales provided by the panel to justify their conclusions.
