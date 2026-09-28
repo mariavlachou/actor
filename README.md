@@ -1,13 +1,20 @@
 # actor
-This repository presents the functionality of ACTOR: our Asylum Chunking Toolkit for Outcome Review. To reproduce the method mentioned in the paper and to further explore our system, we provide further details below: ACTOR consists of two main parts:
+This repository presents the functionality of ACTOR: our Asylum Chunking Toolkit for Outcome Review. To reproduce the method mentioned in the paper and to further explore our system, we provide further details below: 
 
 
 ## Table of Contents
-[About the System](#about-the-system)
+- [About the System](#about-the-system)
+- [Getting Started](#getting-started)
+- [Pipeline with precomputed values](#pipeline-with-precomputed-values)
+- [Visualisation](#visualisation)
+  
 
 ## About the System
+ACTOR consists of two main parts:
 - A pipeline that obtains data from a website and computes the values by chunking, performing topic extraction, and topic-based retrieval.
-- A visualisation tool that uses the precomputed values and displays results based on a mapping between chunk ids and document ids.  
+- A visualisation tool that uses the precomputed values and displays results based on a mapping between chunk ids and document ids.
+
+## Getting Started
 - Clone this repository.
 ```python
 git clone https://github.com/mariavlachou/actor
@@ -18,7 +25,7 @@ cd actor
 pip install -r requirements.txt
 ```
 
-## Running the pipeline with the precomputed values
+## Pipeline with precomputed values
 - To run the pipeline from getting data from the corresponding website up to producing the evaluation metrics, you can run:
  ```cd path/to/actor
 /opt/anaconda3/bin/jupyter nbconvert --to notebook --execute --inplace full_pipeline_example.ipynb --ExecutePreprocessor.timeout=1800
@@ -62,7 +69,7 @@ python3 src/full_pipeline_generic.py --dataset fln
 Without the precomputed values, the full pipeline takes roughly 5-6 hours to run on an Apple M4
 Pro with 24GB RAM. 
 
-## Running the visualisation
+## Visualisation
 
 To interact with the interface, you will need Streamlit (see in requirements). To run it locally, you can run:
 
