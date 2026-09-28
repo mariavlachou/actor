@@ -10,6 +10,8 @@ This repository presents the functionality of ACTOR: our Asylum Chunking Toolkit
   - [Run Retrieval](#run-retrieval)
   - [Obtain Data](#obtain-data)
 - [Visualisation](#visualisation)
+  - [Phase 1: Topics to Case Files](#phase1)
+  - [Phase 2: Case Files to Topics](#phase2)
   
 
 ## About the System
@@ -80,6 +82,7 @@ python3 src/full_pipeline_generic.py --dataset fln
 
 
 ## Visualisation
+A demonstration video of how we visualise our system and results is available at https://youtu.be/y-tmlT778Zs/. 
 
 To interact with the interface, you will need Streamlit (see in requirements). To run it locally, you can run:
 
@@ -101,8 +104,12 @@ ssh -L 8501:localhost:8501 you@cluster-node "cd actor && source .venv/bin/activa
 
 ```
 
-Below, we show examples of usage for each of the two main parts of the visualisation. First, we see first tab of our visualisation, where a user can select a dataset, a topic that is extracted from the dataset using our pipeline, and a retrieval method, and they can view for this specific selected topic, which case files answer it best.
+Below, we show examples of usage for each of the two main parts of the visualisation. 
+
+### Phase 1: Topics to Case Files
+First, we see first tab of our visualisation, where a user can select a dataset, a topic that is extracted from the dataset using our pipeline, and a retrieval method, and they can view for this specific selected topic, which case files answer it best.
 ![Figure 2](images/tab1_actor.png)
 
+### Phase 2: Case Files to Topics
 Then, we show an example of the second tab of our visualisation,
 ![Figure 3](images/tab2_actor.png)
