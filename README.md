@@ -93,3 +93,5 @@ If you are trying to run it on a cluster, use:
 ssh -L 8501:localhost:8501 you@cluster-node "cd actor && source .venv/bin/activate && streamlit run retrieval_results_app.py --server.headless true --server.port 8501" & sleep 5 && open http://localhost:8501
 
 ```
+
+Below, we show examples of usage for each of the two main parts of the visualisation. First, we see first tab of our visualisation ![Figure 2](images/tab1_actor.png), where a user can select a dataset, a topic that is extracted from the dataset using our pipeline, and a retrieval method, and they can view for this specific selected topic, which case files answer it best.
