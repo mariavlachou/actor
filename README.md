@@ -14,7 +14,8 @@ ACTOR consists of two main parts:
 - A pipeline that obtains data from a website and computes the values by chunking, performing topic extraction, and topic-based retrieval.
 - A visualisation tool that uses the precomputed values and displays results based on a mapping between chunk ids and document ids.
 
-The architecture of our pipeline can be seen below ![Figure 1](images/actor_pipe.png). First, entire documents, each corresponding to a case file of an application decision summary, are chunked into smaller pieces. Then,
+The architecture of our pipeline can be seen below. First, entire documents, each corresponding to a case file of an application decision summary, are chunked into smaller pieces. We use Few-shot Query Generation to generate one query per chunk using the few-shot examples in /prompts/fewshot_examples.txt. Second, We use Topic Extraction to convert the generated queries into their 
+![Figure 1](images/actor_pipe.png)
 
 Our system is primarily designed to run locally, since a main goal for its usage is to compare one's insights about asylum application/appeals that are often private and access is restricted. We provide a way to obtain data from openly available sources and then the user is free to compare locally with their own private data. Still, it can also be run from any machine.
 
