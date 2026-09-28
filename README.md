@@ -34,11 +34,14 @@ pip install -r requirements.txt
 ```
 
 ## Pipeline with precomputed values 
+We now show how a user can obtain results from our pipeline.
+### Full Pipeline
 - To run the pipeline from getting data from the corresponding website up to producing the evaluation metrics, you can run:
  ```cd path/to/actor
 /opt/anaconda3/bin/jupyter nbconvert --to notebook --execute --inplace full_pipeline_example.ipynb --ExecutePreprocessor.timeout=1800
+```
+Without the precomputed values, the full pipeline takes roughly 5-6 hours to run on an Apple M4 Pro with 24GB RAM. 
 
-``` 
 This file contains an example used for the fln dataset, and since the artifacts already exist, this will run in under a minute, saying that each step is already executed. On an Apple Silicon Mac, we use the Anaconda jupyter binary (the distribution where PyTerrier's JVM starts). When running on a cluster  or on a Linux machine, JDK + jupyter in your venv will work using
 
  ```
@@ -74,8 +77,7 @@ Also, Ollama, running (ollama serve &) for example for models like gemma3:4b, ll
 python3 src/full_pipeline_generic.py --dataset fln
 ```
 
-Without the precomputed values, the full pipeline takes roughly 5-6 hours to run on an Apple M4
-Pro with 24GB RAM. 
+
 
 ## Visualisation
 
