@@ -14,8 +14,6 @@ ACTOR consists of two main parts:
 - A pipeline that obtains data from a website and computes the values by chunking, performing topic extraction, and topic-based retrieval.
 - A visualisation tool that uses the precomputed values and displays results based on a mapping between chunk ids and document ids.
 
-The architecture of our pipeline can be see in ![Figure 1](images/actor_pipe.png).
-
 Our system is primarily designed to run locally, since a main goal for its usage is to compare one's insights about asylum application/appeals that are often private and access is restricted. We provide a way to obtain data from openly available sources and then the user is free to compare locally with their own private data. Still, it can also be run from any machine.
 
 ## Getting Started
@@ -30,6 +28,7 @@ pip install -r requirements.txt
 ```
 
 ## Pipeline with precomputed values
+The architecture of our pipeline can be seen below ![Figure 1](images/actor_pipe.png). First, entire documents, each corresponding to a case file of an application decision summary, are chunked into smaller pieces. Then, 
 - To run the pipeline from getting data from the corresponding website up to producing the evaluation metrics, you can run:
  ```cd path/to/actor
 /opt/anaconda3/bin/jupyter nbconvert --to notebook --execute --inplace full_pipeline_example.ipynb --ExecutePreprocessor.timeout=1800
