@@ -1,5 +1,13 @@
 # actor
-This repository presents the functionality of ACTOR: our Asylum Chunking Toolkit for Outcome Review. ACTOR consists of two main parts: 1) A pipeline that obtains data from a website and computes the values by chunking, performing topic extraction, and topic-based retrieval. 2) A visualisation tool that uses the precomputed values and displays results based on a mapping between chunk ids and document ids.  To reproduce the method mentioned in the paper and to further explore our system, here are the steps:
+This repository presents the functionality of ACTOR: our Asylum Chunking Toolkit for Outcome Review. To reproduce the method mentioned in the paper and to further explore our system, we provide further details below: ACTOR consists of two main parts:
+
+
+## Table of Contents
+[About the System](#about-the-system)
+
+## About the System
+- A pipeline that obtains data from a website and computes the values by chunking, performing topic extraction, and topic-based retrieval.
+- A visualisation tool that uses the precomputed values and displays results based on a mapping between chunk ids and document ids.  
 - Clone this repository.
 ```python
 git clone https://github.com/mariavlachou/actor
