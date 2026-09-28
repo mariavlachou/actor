@@ -35,11 +35,19 @@ cd actor
 pip install -r requirements.txt
 ```
 
+You will need Ollama if you have not already installed it (using ollama serve and ollama pull). We use gemma3:4b, llama3.1:8b, and 
+
 ## Pipeline with precomputed values 
 We now show how a user can obtain results from our pipeline. Without the precomputed values, the full pipeline takes roughly 5-6 hours to run on an Apple M4 Pro with 24GB RAM.
 
 ### Full Pipeline
-- To run the pipeline from getting data from the corresponding website up to producing the evaluation metrics, you can run:
+- To run the full pipeline, which includes scraping data from the corresponding website up to producing the evaluation metrics, you need to run the file full_pipeline_generic.ipynb. We use
+```
+/opt/anaconda3/bin/jupyter nbconvert --to notebook --execute --inplace full_pipeline_generic.ipynb
+```
+(using Anaconda's Python). --inplace writes all outputs back into the notebook itself, while every stage is idempotent (it skips anything that is  already computed in data/ for the selected dataset, so it runs fast for fln/euaa, where we have already computed them.
+
+  
  ```
 /opt/anaconda3/bin/jupyter nbconvert --to notebook --execute --inplace full_pipeline_example.ipynb --ExecutePreprocessor.timeout=1800
 ```
