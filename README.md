@@ -6,6 +6,9 @@ This repository presents the functionality of ACTOR: our Asylum Chunking Toolkit
 - [About the System](#about-the-system)
 - [Getting Started](#getting-started)
 - [Pipeline with precomputed values](#pipeline-with-precomputed-values)
+  - [Full Pipeline](#full-pipeline)
+  - [Run Retrieval](#run-retrieval)
+  - [Obtain Data](#obtain-data)
 - [Visualisation](#visualisation)
   
 
@@ -25,7 +28,7 @@ Our system is primarily designed to run locally, since a main goal for its usage
 git clone https://github.com/mariavlachou/actor
 cd actor
 ```
-- Install the requirements. Note that you will need to install PyTerrier for the retrieval step. When running on a local Apple Silicon machine, the Anaconda version of Python is used. To run PyTerrier, you need Java (JDK 11+) for PyTerrier's embedded JVM — module load java/openjdk, or conda install openjdk=21 (no Mac-specific workaround is needed if you use Linux).
+- Install the requirements. Note that you will need to install PyTerrier for the retrieval step. If you are running on a local Apple Silicon machine, the Anaconda version of Python is used. To run PyTerrier, you need Java (JDK 11+) for PyTerrier's embedded JVM — module load java/openjdk, or conda install openjdk=21 (no Mac-specific workaround is needed if you use Linux).
 ```python
 pip install -r requirements.txt
 ```
