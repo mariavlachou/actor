@@ -81,14 +81,13 @@ Finally, run the pipeline using:
 jupyter nbconvert --to notebook --execute --inplace full_pipeline_generic.ipynb
 ```
 
-
-  
- ```
-/opt/anaconda3/bin/jupyter nbconvert --to notebook --execute --inplace full_pipeline_example.ipynb --ExecutePreprocessor.timeout=1800
+or with overrides using:
 ```
- 
+papermill full_pipeline_generic.ipynb output.ipynb -p DATASET_KEY euaa
+```
 
-This file contains an example used for the fln dataset, and since the artifacts already exist, this will run in under a minute, saying that each step is already executed. On an Apple Silicon Mac, we use the Anaconda jupyter binary (the distribution where PyTerrier's JVM starts). When running on a cluster  or on a Linux machine, JDK + jupyter in your venv will work using
+
+The file full_pipeline_example.ipynb contains an example used for the fln dataset, and since the artifacts already exist, this will run in under a minute, saying that each step is already executed. On an Apple Silicon Mac, we use the Anaconda jupyter binary (the distribution where PyTerrier's JVM starts). When running on a cluster  or on a Linux machine, JDK + jupyter in your venv will work using
 
  ```
 jupyter nbconvert --to notebook --execute --inplace full_pipeline_example.ipynb --ExecutePreprocessor.timeout=1800
@@ -104,25 +103,6 @@ or to specify how many samples you want
 ```
 /opt/anaconda3/bin/python3 src/full_pipeline_generic.py --dataset euaa --sample-size 50
 ```
-
-
-or to run it from a cluster follow the steps:
-- Setup an environment:
-```
-python3 -m venv .venv && source .venv/bin/activate
-pip install -r requirements.txt
-```
-
-and note that you need the following non-pip prerequisites:
-
-Java (JDK 11+) for PyTerrier's embedded JVM — module load java/openjdk, or conda install openjdk=21 (no Mac-specific workaround needed on Linux).
-Also, Ollama, running (ollama serve &) for example for models like gemma3:4b, llama3.1:8b etc.
-
-- run the pipeline as
-```
-python3 src/full_pipeline_generic.py --dataset fln
-```
-
 
 
 ## Visualisation
