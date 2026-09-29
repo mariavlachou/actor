@@ -70,11 +70,17 @@ pip install -r requirements.txt
 playwright install chromium   # only needed if sourcing euaa from scratch
 ```
 Again, you need an Ollama installation as before. 
-Then, to import everything needed from src/, you can run:
+Then, to import everything needed from src/, data/ and index_dir/, you can run:
 ```
 rsync -avz full_pipeline_generic.ipynb src/ data/ index_dir/ user@cluster:/path/to/actor/
-
 ```
+While data/ and index_dir/ are optional, bringing them lets step_done() check and skip anything that is already computed (instead of doing scraping/query-gen/judging from scratch.
+
+Finally, run the pipeline using:
+```
+jupyter nbconvert --to notebook --execute --inplace full_pipeline_generic.ipynb
+```
+
 
   
  ```
