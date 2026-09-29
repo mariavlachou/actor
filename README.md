@@ -52,7 +52,7 @@ We now show how a user can obtain results from our pipeline. Without the precomp
 ```
 /opt/anaconda3/bin/jupyter nbconvert --to notebook --execute --inplace full_pipeline_generic.ipynb
 ```
-(using Anaconda's Python). --inplace writes all outputs back into the notebook itself, while every stage is idempotent (it skips anything that is  already computed in data/ for the selected dataset, so it runs fast for fln/euaa, where we have already computed them.
+(using Anaconda's Python). --inplace writes all outputs back into the notebook itself, while at every stage, if anything is  already computed in data/ for the selected dataset, it skips it, so it runs fast for fln/euaa, where we have already computed them.
 
   
  ```
