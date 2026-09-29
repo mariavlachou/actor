@@ -63,6 +63,19 @@ To select another dataset or to specify a different sample size, you can use:
 ```
 Currently, the available datasets options are fln, euaa, asylex.
 
+If you are not running from Mac, any Python and JDK can work. Therefore, first set the environment:
+```
+module load java              # or: sudo apt-get install -y openjdk-17-jdk
+pip install -r requirements.txt
+playwright install chromium   # only needed if sourcing euaa from scratch
+```
+Again, you need an Ollama installation as before. 
+Then, to import everything needed from src/, you can run:
+```
+rsync -avz full_pipeline_generic.ipynb src/ data/ index_dir/ user@cluster:/path/to/actor/
+
+```
+
   
  ```
 /opt/anaconda3/bin/jupyter nbconvert --to notebook --execute --inplace full_pipeline_example.ipynb --ExecutePreprocessor.timeout=1800
