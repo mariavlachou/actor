@@ -4,6 +4,7 @@ This repository presents the functionality of ACTOR: our Asylum Chunking Toolkit
 
 ## Table of Contents
 - [About the System](#about-the-system)
+- [Supported Website Types](#supported-website-types)
 - [Getting Started](#getting-started)
 - [Pipeline with precomputed values](#pipeline-with-precomputed-values)
   - [Full Pipeline](#full-pipeline)
@@ -23,6 +24,20 @@ The architecture of our pipeline can be seen below. First, entire documents, eac
 ![Figure 1](images/actor_pipe.png)
 
 Our system is primarily designed to run locally, since a main goal for its usage is to compare one's insights about asylum application/appeals that are often private and access is restricted. We provide a way to obtain data from openly available sources and then the user is free to compare locally with their own private data. Still, it can also be run from any machine. We now show how to get started if you want to use our system.
+
+## Supported website types
+
+Sourcing branches on how each site makes its data available, not on the
+topic of the data itself. Full detail (including the exact interaction
+pattern each module handles) is in
+[`data/scraping_types.csv`](data/scraping_types.csv); summarized here:
+
+| Type | Module | Summary | Example site |
+|---|---|---|---|
+| Plain GET, URL-parameterized listing pages | `scraper.py` (`WebsiteScraper`) | Filters/pagination are plain URL query parameters, so a `requests` GET is enough. Generalized via a `SiteConfig` (or `--config site.json` for a new site). | fln.dk/praksis/ |
+| JS/AJAX "callback" search pages | `browser_scraper.py` (`BrowserWebsiteScraper`) | No URL represents a filtered/paged state — filters and "load more" fire JS callbacks. Drives a real headless browser via Playwright instead. | caselaw.euaa.europa.eu |
+| Pre-existing Hugging Face dataset | `hf_dataset_sampler.py` (`HFDatasetSampler`) | Not a scrape — samples directly from an already-published HF dataset via `datasets`. | `clairebarale/AsyLex` |
+
 
 ## Getting Started
 - Clone this repository.
