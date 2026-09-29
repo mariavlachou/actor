@@ -27,7 +27,7 @@ Our system is primarily designed to run locally, since a main goal for its usage
 
 ## Supported website types
 
-The project supports two distinct website interaction patterns for scraping, plus one non-website data source (loading data from Hugging Face) — three Hugging Face datasets. See the details in the table below, where we show how we can obtain each type of data and which dataset is an example of the corresponding type. This is not an exhaustive list of how a dataset with asylum decision summary or appeals might look like, but we aim to provide a varied set of real options.
+The project supports two distinct website interaction patterns for scraping, plus one non-website data source (loading data from Hugging Face) — three Hugging Face datasets. These correspond to existing sources of asylum cases that are currently openly available. These patterns not only represent different types of obtaining data, but also provide a variety of countries, which makes it a useful source for researchers and practitioners working in this field to compare with their own data. See the details of our supported websites in the table below, where we show how we can obtain each type of data and which dataset is an example of the corresponding type. This is not an exhaustive list of how a dataset with asylum decision summary or appeals might look like, but we aim to provide a varied set of real options.
 
 | Type | Module | Summary | Example site |
 |---|---|---|---|
