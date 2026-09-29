@@ -35,7 +35,14 @@ cd actor
 pip install -r requirements.txt
 ```
 
-You will need Ollama if you have not already installed it (using ollama serve and ollama pull). We use gemma3:4b, llama3.1:8b, and 
+You will need Ollama if you have not already installed it (using ollama serve and ollama pull). We use 
+```
+ollama pull gemma3:4b
+ollama pull hf.co/bartowski/google_gemma-3-4b-it-GGUF:Q5_K_S
+ollama pull llama3.1:8b
+ollama serve &
+```
+
 
 ## Pipeline with precomputed values 
 We now show how a user can obtain results from our pipeline. Without the precomputed values, the full pipeline takes roughly 5-6 hours to run on an Apple M4 Pro with 24GB RAM.
