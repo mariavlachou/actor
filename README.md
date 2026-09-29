@@ -52,7 +52,16 @@ We now show how a user can obtain results from our pipeline. Without the precomp
 ```
 /opt/anaconda3/bin/jupyter nbconvert --to notebook --execute --inplace full_pipeline_generic.ipynb
 ```
-(using Anaconda's Python). --inplace writes all outputs back into the notebook itself, while at every stage, if anything is  already computed in data/ for the selected dataset, it skips it, so it runs fast for fln/euaa, where we have already computed them.
+(using Anaconda's Python). --inplace writes all outputs back into the notebook itself, while at every stage, if anything is  already computed in data/ for the selected dataset, it skips it, so it runs fast for fln/euaa, where we have already computed them. 
+
+To select another dataset or to specify a different sample size, you can use: 
+```
+/opt/anaconda3/bin/papermill full_pipeline_generic.ipynb output.ipynb \
+    -p DATASET_KEY euaa \
+    -p SAMPLE_SIZE 30 \
+    -p SAMPLE_SEED 42
+```
+Currently, the available datasets options are fln, euaa, asylex.
 
   
  ```
