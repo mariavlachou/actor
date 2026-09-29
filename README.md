@@ -9,7 +9,7 @@ This repository presents the functionality of ACTOR: our Asylum Chunking Toolkit
 - [Pipeline with precomputed values](#pipeline-with-precomputed-values)
   - [Full Pipeline](#full-pipeline)
   - [Run Retrieval](#run-retrieval)
-  - [Obtain Data](#obtain-data)
+  - [Replace Own Data](#replace-own-data)
 - [Visualisation](#visualisation)
   - [Topics to Case Files](#topics-to-case-files)
   - [Case Files to Topics](#case-files-to-topics)
@@ -27,10 +27,7 @@ Our system is primarily designed to run locally, since a main goal for its usage
 
 ## Supported website types
 
-Sourcing branches on how each site makes its data available, not on the
-topic of the data itself. Full detail (including the exact interaction
-pattern each module handles) is in
-[`data/scraping_types.csv`](data/scraping_types.csv); summarized here:
+The project supports two distinct website interaction patterns for scraping, plus one non-website data source (loading data from Hugging Face) — three Hugging Face datasets. See the details in the table below, where we show how we can obtain each type of data and which dataset is an example of the corresponding type. This is not an exhaustive list of how a dataset with asylum decision summary or appeals might look like, but we aim to provide a varied set of real options.
 
 | Type | Module | Summary | Example site |
 |---|---|---|---|
@@ -119,6 +116,8 @@ or to specify how many samples you want
 /opt/anaconda3/bin/python3 src/full_pipeline_generic.py --dataset euaa --sample-size 50
 ```
 
+### Replace Own Data
+You can use your own local data instead of our online examples to run the pipeline.
 
 ## Visualisation
 A demonstration video of how we visualise our system and results is available at https://youtu.be/y-tmlT778Zs/. 
