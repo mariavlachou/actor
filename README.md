@@ -117,7 +117,17 @@ or to specify how many samples you want
 ```
 
 ### Replace Own Data
-You can use your own local data instead of our online examples to run the pipeline.
+You can use your own local data instead of our online examples to run the pipeline. 
+
+- First, drop your CSV in as if it were already scraped. Note that the notebook's stage 1 (source_data) is already skip-if-exists (using step_done(SCRAPE_CSV)), so if you put your own file at the path it expects, it will skip straight past scraping into chunking your data.
+
+- Then, select which of the three DATASET_KEYs (fln/euaa/asylex) is closest to your data's shape — the main difference is in the text column it expects ("description" for fln/euaa, "txt" for asylex). Save your data as data/<stem>.csv, matching that key's stem — fln_praksis_2026.csv, euaa_asylum_report.csv, or asylex_raw_documents_sample.csv — include at minimum an item_id column (since the row identifier chunk_documents.py needs it) and that text column.
+
+- Finally, run the notebook as:
+```
+/opt/anaconda3/bin/jupyter nbconvert --to notebook --execute --inplace full_pipeline_generic.ipynb
+```
+
 
 ## Visualisation
 A demonstration video of how we visualise our system and results is available at https://youtu.be/y-tmlT778Zs/. 
