@@ -8,8 +8,8 @@ This repository presents the functionality of ACTOR: our Asylum Chunking Toolkit
 - [Getting Started](#getting-started)
 - [Pipeline with precomputed values](#pipeline-with-precomputed-values)
   - [Full Pipeline](#full-pipeline)
-  - [Run Retrieval](#run-retrieval)
   - [Replace Own Data](#replace-own-data)
+  - [Own Data Stepwise](#own-data-stepwise)
 - [Visualisation](#visualisation)
   - [Topics to Case Files](#topics-to-case-files)
   - [Case Files to Topics](#case-files-to-topics)
@@ -126,6 +126,24 @@ You can use your own local data instead of our online examples to run the pipeli
 - Finally, run the notebook as:
 ```
 /opt/anaconda3/bin/jupyter nbconvert --to notebook --execute --inplace full_pipeline_generic.ipynb
+```
+### Own Data Stepwise
+Alternatively, if you prefer, you can run the notebook full_pipeline_custom_data.ipynb as 
+```
+/opt/anaconda3/bin/jupyter nbconvert --to notebook --execute --inplace full_pipeline_custom_data.ipynb
+```
+Feel free to explore its contents where you can see the steps explained. Before running it, edit 3 variables at cell 0 as follows to match your data:
+```
+INPUT_CSV = "data/my_data.csv"      # your own CSV
+TEXT_COLUMN = "my_text_col"         # column holding the document text
+STEM = "my_data"                    # prefix for every derived output filename
+```
+or override them without modifying the notebook as:
+```
+/opt/anaconda3/bin/papermill full_pipeline_custom_data.ipynb output.ipynb \
+    -p INPUT_CSV data/my_data.csv \
+    -p TEXT_COLUMN my_text_col \
+    -p STEM my_data
 ```
 
 
