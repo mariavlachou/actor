@@ -217,8 +217,15 @@ def discover_datasets() -> Dict[str, dict]:
             continue
 
         chunks_filename = next((v for k, v in BASE_DATASET_CHUNKS.items() if stem.startswith(k)), None)
-        chunks_path = os.path.join(DATA_DIR, chunks_filename) if chunks_filename else None
-        if chunks_path is None or not os.path.exists(chunks_path):
+        if chunks_filename is None:
+            # Fall back to this project's plain naming convention (base_stem_chunks.csv,
+            # stripping "_queries_topic_names_qid_query" and any trailing "_sampleN") --
+            # covers any dataset run through the standard pipeline that isn't in the
+            # explicit BASE_DATASET_CHUNKS map above (e.g. a custom dataset of your own).
+            base_stem = re.sub(r"_queries_topic_names_qid_query(_sample\d+)?$", "", stem)
+            chunks_filename = f"{base_stem}_chunks.csv"
+        chunks_path = os.path.join(DATA_DIR, chunks_filename)
+        if not os.path.exists(chunks_path):
             continue
 
         methods: Dict[str, str] = {}
