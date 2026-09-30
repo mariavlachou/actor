@@ -148,7 +148,7 @@ or override them without modifying the notebook as:
 
 
 ## Visualisation
-A demonstration video of how we visualise our system and results is available at https://youtu.be/y-tmlT778Zs/. 
+A demonstration video of how we visualise our system and results is available at https://youtu.be/y-tmlT778Zs/. Note that the interface supports the possibility of running it based on the results from your custom data files.
 
 To interact with the interface, you will need Streamlit (see in requirements). To run it locally, you can run:
 
