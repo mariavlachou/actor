@@ -128,13 +128,6 @@ To interact with the interface, you will need Streamlit (see in requirements). T
 streamlit run retrieval_results_app.py
 ```
 
-or if you want to first kill an exiting instance, use
-
-```
-pkill -f "streamlit run retrieval_results_app.py"; sleep 1; cd path/to/actor && (streamlit run retrieval_results_app.py --server.port 8501 &) && sleep 3 && open http://localhost:8501
-
-```
-
 If you are trying to run it on a cluster, use: 
 
 ```
@@ -145,9 +138,9 @@ ssh -L 8501:localhost:8501 you@cluster-node "cd actor && source .venv/bin/activa
 Below, we show examples of usage for each of the two main parts of the visualisation. 
 
 ### Topics to Case Files
-First, we see first tab of our visualisation, where we go from Topics to Case Files. A Case File represents an explanation of an application outcome for a specific case (one one more individuals), also depending on the dataset. In this case, a user can select a Dataset (here we show the sample of 30 queries from the fln dataset using cases from the year 2026), a Topic (here we show topic number 68 - Asylum seeker's explanation and assessment) that is extracted from the dataset using our pipeline, and a Retrieval method (here e5), and they can view for this specific selected topic, which case files answer it best. We see that a key functionality here is the mapping between a doc_id (the identifier of the case file) and the chunk id. Remember that topic-based retrieval is done at the chunk level, and therefore, the results point us to specific chunks (of any case file) that are returned for the topic by a given retrieval method. What we show is the top-3 chunks within their corresponding case file (based on the doc_id connection). Therefore, this means that for a selected topic, we show both the cases and the corresponding point (chunk) that best answers the topic. The top-3 chunks are selected based on the retrieval evaluation step that we apply for the selected retrieval method using the LLM-based pooling. Here we show a case with identifier ugan202620 and the chunk that was labeled 5/5 by the LLM (while it was initially returned at rank 10 with e5). 
+First, we see first tab of our visualisation, where we go from Topics to Case Files. A Case File represents an explanation of an application outcome for a specific case (one one more individuals), also depending on the dataset. In this case, a user can select a Dataset (here we show the sample of 30 queries from the fln dataset using cases from the year 2026), a Topic (here we show topic number 68 - Asylum seeker's explanation and assessment) that is extracted from the dataset using our pipeline, and a Retrieval method (here e5), and they can view for this specific selected topic, which case files answer it best. We see that a key functionality here is the mapping between a doc_id (the identifier of the case file) and the chunk id. Remember that topic-based retrieval is done at the chunk level, and therefore, the results point us to specific chunks (of any case file) that are returned for the topic by a given retrieval method. What we show is the top-3 chunks within their corresponding case file (based on the doc_id connection). Therefore, this means that for a selected topic, we show both the cases and the corresponding point (chunk) that best answers the topic. The top-3 chunks are selected based on the retrieval evaluation step that we apply for the selected retrieval method using the LLM-based pooling. Here we show a case with identifier ugan202620 and the chunk that was labeled 5/5 by the LLM (while it was initially returned at rank 10 with e5). We also provide the url of the case so that the user can click on it and view the entire summary of this specific case.
 ![Figure 2](images/tab1_actor.png)
 
 ### Case Files to Topics
-Then, we show an example of the second tab of our visualisation,
+Then, we show an example of the second tab of our visualisation, where we move from Case Files to Topics. In particular, a user can select (again a dataset first and then) a specific Case File (here, we selected rusl202615). Then, what appears is simply the full content of the selected case file, but with additional functionality: In particular, we can see across its length, which topics appear at which parts (chunks). The topic names appear at the top in bubbles, each with a different colour, and using the corresponding colours, the respective chunks are highlighted in the case file, each representing a separate topic. For example, we cans ee with purple highlights the topic Asylum Claims Review with strength 4/5 based on the LLM judge. Again, we use the mapping of the case file id and the chunk id.
 ![Figure 3](images/tab2_actor.png)
