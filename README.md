@@ -43,7 +43,7 @@ The project supports two distinct website interaction patterns for scraping, plu
 git clone https://github.com/mariavlachou/actor
 cd actor
 ```
-- Install the requirements. Note that you will need to install [PyTerrier]([https://example.com](https://pyterrier.readthedocs.io/en/latest/)) for the retrieval step. If you are running on a local Apple Silicon machine, the Anaconda version of Python is used. To run PyTerrier, you need Java (JDK 11+) for PyTerrier's embedded JVM — module load java/openjdk, or conda install openjdk=21 (no Mac-specific workaround is needed if you use Linux).
+- Install the requirements. Note that you will need to install [PyTerrier]([https://example.com](https://pyterrier.readthedocs.io/en/latest/) for the retrieval step. If you are running on a local Apple Silicon machine, the Anaconda version of Python is used. To run PyTerrier, you need Java (JDK 11+) for PyTerrier's embedded JVM — module load java/openjdk, or conda install openjdk=21 (no Mac-specific workaround is needed if you use Linux).
 ```python
 pip install -r requirements.txt
 ```
