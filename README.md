@@ -156,6 +156,19 @@ The qrels (relevance judgments) are saved in data/ with the extension *_pool_lab
 | `data/euaa_asylum_report_chunks_legalbert_topic_names_qid_query_pool_labels.csv` | EUAA (Legal-BERT / AsyLex-label topics) |
 | `data/fln_praksis_2026_queries_topic_names_qid_query_sample30_pool_labels.csv` | FLN (30-topic sample) |
 
+If you want to use your own custom qrels, you just need to place your own labels file at the path the judging stage (step 10) expects before running it. The pipeline can detect if the file already exists and it will skip the LLM-judge call using your human judgments instead.
+
+
+The file judge_pool.py writes a csv with columns:
+- did: the topic id from your topics file (as a string)
+- docno: the chunk id being judged (e.g. afgh202618_chunk003)
+- label: an integer relevance score (0–5, matching the scale the LLM judge uses, though nothing enforces that range in code)
+
+What you should end up with looks like:
+```
+data/<STEM>_queries_topic_names_qid_query_sample<SAMPLE_SIZE>_pool_labels.csv
+```
+
 
 ## Visualisation
 A demonstration video of how we visualise our system and results is available at https://youtu.be/y-tmlT778Zs/. Note that the interface supports the possibility of running it based on the results from your custom data files.
