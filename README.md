@@ -174,6 +174,8 @@ data/<STEM>_..._sample<N>_pool.csv
 ```
 with columns qid, query, docno, text, rank, score. This is what human a judge sees (the topic/query and the candidate chunk's text) to assign a relevance score. After you collect the label values, save the result as a _pool_labels.csv file.
 
+Then you can run the full pipeline notebook as indicated above. Since you place the qrels files for your custom data, it will skip up to this step and continue with the retrieval evaluation of your human judgments. You can also modify our prompt to produce LLM judgments based on your preferences.
+
 ## Visualisation
 A demonstration video of how we visualise our system and results is available at https://youtu.be/y-tmlT778Zs/. Note that the interface supports the possibility of running it based on the results from your custom data files.
 
