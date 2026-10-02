@@ -10,6 +10,7 @@ This repository presents the functionality of ACTOR: our Asylum Chunking Toolkit
   - [Full Pipeline](#full-pipeline)
   - [Replace Own Data](#replace-own-data)
   - [Own Data Stepwise](#own-data-stepwise)
+  - [Replace Own Qrels](#replace-own-qrels)
 - [Visualisation](#visualisation)
   - [Topics to Case Files](#topics-to-case-files)
   - [Case Files to Topics](#case-files-to-topics)
@@ -145,6 +146,15 @@ or override them without modifying the notebook as:
     -p TEXT_COLUMN my_text_col \
     -p STEM my_data
 ```
+
+### Replace Own Data
+The qrels (relevance judgments) are saved in data/ with the extension *_pool_labels.csv. They are produced using the file judge_pool.py. The columns of this civ file are: did, docno, label, following the PyTerrier notation. More details on the existing files in the table below.  **Note that there is no qrels file for asylex yet — that dataset hasn't gone through the pooling and judging steps.
+
+| File | Dataset |
+|---|---|
+| `data/euaa_asylum_report_queries_topic_names_qid_query_pool_labels.csv` | EUAA (original, query-based topics) |
+| `data/euaa_asylum_report_chunks_legalbert_topic_names_qid_query_pool_labels.csv` | EUAA (Legal-BERT / AsyLex-label topics) |
+| `data/fln_praksis_2026_queries_topic_names_qid_query_sample30_pool_labels.csv` | FLN (30-topic sample) |
 
 
 ## Visualisation
