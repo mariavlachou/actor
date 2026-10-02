@@ -160,15 +160,19 @@ If you want to use your own custom qrels, you just need to place your own labels
 
 
 The file judge_pool.py writes a csv with columns:
-- did: the topic id from your topics file (as a string)
+- qid: the topic id from your topics file (as a string)
 - docno: the chunk id being judged (e.g. afgh202618_chunk003)
-- label: an integer relevance score (0–5, matching the scale the LLM judge uses, though nothing enforces that range in code)
+- label: an integer relevance score (0–5, matching the scale our LLM judge uses, but you can modify the range and the prompt template)
 
 What you should end up with looks like:
 ```
 data/<STEM>_queries_topic_names_qid_query_sample<SAMPLE_SIZE>_pool_labels.csv
 ```
-
+Feel free to explore the existing csv files with this extension and the python file that produces them if you want to see the process in more detail. Another point to note here is the following: If you want to make sure which (qid, docno) pairs to judge, you can run the pipeline up to step 9 (pooling). This gives:
+```
+data/<STEM>_..._sample<N>_pool.csv
+```
+with columns qid, query, docno, text, rank, score. This is what human a judge sees (the topic/query and the candidate chunk's text) to assign a relevance score. After you collect the label values, save the result as a _pool_labels.csv file.
 
 ## Visualisation
 A demonstration video of how we visualise our system and results is available at https://youtu.be/y-tmlT778Zs/. Note that the interface supports the possibility of running it based on the results from your custom data files.
