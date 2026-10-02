@@ -147,7 +147,7 @@ or override them without modifying the notebook as:
     -p STEM my_data
 ```
 
-### Replace Own Data
+### Replace Own Qrels
 The qrels (relevance judgments) are saved in data/ with the extension *_pool_labels.csv. They are produced using the file judge_pool.py. The columns of this civ file are: did, docno, label, following the PyTerrier notation. More details on the existing files in the table below.  **Note that there is no qrels file for asylex yet — that dataset hasn't gone through the pooling and judging steps.
 
 | File | Dataset |
