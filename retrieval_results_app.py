@@ -348,6 +348,7 @@ def render_query_tab(
     labels_df: pd.DataFrame,
     chunk_to_doc: Dict[str, str],
     case_metadata: pd.DataFrame,
+    max_label: int,
 ) -> None:
     topic_options_df = dedupe_topics_by_text(topics_df)
     query_lookup = dict(zip(topic_options_df["qid"], topic_options_df["query_en"]))
@@ -387,7 +388,7 @@ def render_query_tab(
             header = case_display_title(row["doc_id"], case_metadata)
             st.markdown(f"#### {header}")
             st.html(
-                f'<span class="label-pill">label {row["label"]}/5</span> '
+                f'<span class="label-pill">label {row["label"]}/{max_label}</span> '
                 f'&nbsp;<code>doc_id: {row["doc_id"]}</code>&nbsp;&nbsp;<code>chunk: {row["docno"]}</code> (rank {row["rank"]})'
             )
             if row["doc_id"] in case_metadata.index:
@@ -403,6 +404,7 @@ def render_case_tab(
     chunks_df: pd.DataFrame,
     chunk_to_doc: Dict[str, str],
     case_metadata: pd.DataFrame,
+    max_label: int,
 ) -> None:
     query_lookup = dict(zip(topics_df["qid"], topics_df["query_en"]))
 
@@ -468,7 +470,7 @@ def render_case_tab(
     topic_hue = {topic_text: round(i * hue_step) for i, topic_text in enumerate(ordered_topics)}
 
     st.markdown(
-        f"**Highlighted:** the chunk(s) that reached this case's top label ({case_max_label}/5), "
+        f"**Highlighted:** the chunk(s) that reached this case's top label ({case_max_label}/{max_label}), "
         "coloured by topic -- each bubble names the topic(s) that chunk answers."
     )
     legend = "".join(
@@ -486,12 +488,12 @@ def render_case_tab(
             best_topic_text, best_label = pairs[0]
             hue = topic_hue[best_topic_text]
             bubbles = "".join(
-                f'<span class="topic-bubble" style="--hue:{topic_hue[t]}"><b>{html.escape(t)}</b> · {label}/5</span>'
+                f'<span class="topic-bubble" style="--hue:{topic_hue[t]}"><b>{html.escape(t)}</b> · {label}/{max_label}</span>'
                 for t, label in pairs
             )
             html_parts.append(
                 f'<mark class="chunk-highlight" style="--hue:{hue}">'
-                f'<span class="rank-badge" style="--hue:{hue}">{best_label}/5</span>{chunk_text_html}'
+                f'<span class="rank-badge" style="--hue:{hue}">{best_label}/{max_label}</span>{chunk_text_html}'
                 f"</mark>{bubbles}"
             )
         else:
@@ -526,6 +528,11 @@ def main() -> None:
 
     topics_df = with_english_topics(load_csv(dataset["topics_csv"]))
     labels_df = load_csv(dataset["labels_csv"])
+    valid_labels = labels_df["label"].dropna()
+    # Reflects this dataset's own qrels scale (e.g. 0-5 from the LLM judge, or whatever
+    # scale custom/human-collected qrels used) in the "label X/N" badges, rather than
+    # assuming every dataset is judged 0-5.
+    max_label = int(valid_labels.astype(int).max()) if not valid_labels.empty else 5
     chunks_df = load_csv(dataset["chunks_csv"])
     if "doc_id" not in chunks_df.columns:
         chunks_df["doc_id"] = chunks_df["chunk_id"].apply(derive_doc_id)
@@ -535,10 +542,10 @@ def main() -> None:
     tab1, tab2 = st.tabs(["🔍  Topics → Case Files", "📄  Case File → Topics"])
 
     with tab1:
-        render_query_tab(dataset, topics_df, labels_df, chunk_to_doc, case_metadata)
+        render_query_tab(dataset, topics_df, labels_df, chunk_to_doc, case_metadata, max_label)
 
     with tab2:
-        render_case_tab(dataset, topics_df, labels_df, chunks_df, chunk_to_doc, case_metadata)
+        render_case_tab(dataset, topics_df, labels_df, chunks_df, chunk_to_doc, case_metadata, max_label)
 
 
 if __name__ == "__main__":
