@@ -14,6 +14,7 @@ This repository presents the functionality of ACTOR: our Asylum Chunking Toolkit
 - [Visualisation](#visualisation)
   - [Topics to Case Files](#topics-to-case-files)
   - [Case Files to Topics](#case-files-to-topics)
+  - [Own Labels](#own-labels)
   
 
 ## About the System
@@ -201,3 +202,6 @@ First, we see first tab of our visualisation, where we go from Topics to Case Fi
 ### Case Files to Topics
 Then, we show an example of the second tab of our visualisation, where we move from Case Files to Topics. In particular, a user can select (again a dataset first and then) a specific Case File (here, we selected rusl202615). Then, what appears is simply the full content of the selected case file, but with additional functionality: In particular, we can see across its length, which topics appear at which parts (chunks). The topic names appear at the top in bubbles, each with a different colour, and using the corresponding colours, the respective chunks are highlighted in the case file, each representing a separate topic. For example, we cans ee with purple highlights the topic Asylum Claims Review with strength 4/5 based on the LLM judge. Again, we use the mapping of the case file id and the chunk id. While it cannot be captured in the screenshot, the rest of the topics are highlighted if the user scrolls down with their corresponding colours.
 ![Figure 3](images/tab2_actor.png)
+
+### Own Labels
+Note that the file retrieval_results_app.py visualises the corresponding case files for a given topic (tab 1) and the corresponding topics for a given case file (tab 2) by showing the strength of identified relevance (based on the LLM judge). Our example prompt uses a scale from 0 to 5. However, our visualisation accounts for that. For example, a scale 0-3 would display scores as /3. This is done in main() which computes max_label for the selected dataset, which corresponds to the max value in the dataset's _pool_labels.csv.
